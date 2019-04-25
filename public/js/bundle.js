@@ -94,14 +94,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(6);
 /* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _js_ChildComponent__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(14);
+/* harmony import */ var _js_Header__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(14);
 
 
 
 var title = 'React is Working!';
 react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render(react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
   className: "container"
-}, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, title, " "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_js_ChildComponent__WEBPACK_IMPORTED_MODULE_2__["default"], null)), document.getElementById('app'));
+}, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, title, " "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_js_Header__WEBPACK_IMPORTED_MODULE_2__["default"], null)), document.getElementById('app'));
 
 /***/ }),
 /* 1 */
@@ -24887,23 +24887,23 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 
 
 
-var Child =
+var Header =
 /*#__PURE__*/
 function (_Component) {
-  _inherits(Child, _Component);
+  _inherits(Header, _Component);
 
-  function Child() {
+  function Header() {
     var _getPrototypeOf2;
 
     var _this;
 
-    _classCallCheck(this, Child);
+    _classCallCheck(this, Header);
 
     for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
       args[_key] = arguments[_key];
     }
 
-    _this = _possibleConstructorReturn(this, (_getPrototypeOf2 = _getPrototypeOf(Child)).call.apply(_getPrototypeOf2, [this].concat(args)));
+    _this = _possibleConstructorReturn(this, (_getPrototypeOf2 = _getPrototypeOf(Header)).call.apply(_getPrototypeOf2, [this].concat(args)));
 
     _defineProperty(_assertThisInitialized(_this), "state", {
       typeOfComponent: 'Child Component!'
@@ -24912,19 +24912,29 @@ function (_Component) {
     return _this;
   }
 
-  _createClass(Child, [{
+  _createClass(Header, [{
     key: "render",
     value: function render() {
-      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "child"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "I am a ", this.state.typeOfComponent), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "This is a paragraph!"));
+      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("header", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "logo"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Logo")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("nav", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        href: "#"
+      }, "Link One"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        href: "#"
+      }, "Link Two"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        href: "#"
+      }, "Link Three"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        href: "#"
+      }, "Link Four"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        href: "#"
+      }, "Link Five")));
     }
   }]);
 
-  return Child;
+  return Header;
 }(react__WEBPACK_IMPORTED_MODULE_0__["Component"]);
 
-/* harmony default export */ __webpack_exports__["default"] = (Child);
+/* harmony default export */ __webpack_exports__["default"] = (Header);
 
 /***/ })
 /******/ ]);

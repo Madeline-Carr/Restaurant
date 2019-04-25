@@ -1,13 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Child from './js/ChildComponent';
+import Header from './js/Header';
 
 const title = 'React is Working!';
 
 ReactDOM.render(
     <div className="container">
         <h1>{title} </h1>
-        <Child />
+        <Header />
     </div>,
     document.getElementById('app')
 );
