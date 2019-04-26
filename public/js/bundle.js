@@ -98,10 +98,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var title = 'React is Working!';
-react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render(react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-  className: "container"
-}, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, title, " "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_js_Header__WEBPACK_IMPORTED_MODULE_2__["default"], null)), document.getElementById('app'));
+react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render(react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_js_Header__WEBPACK_IMPORTED_MODULE_2__["default"], null)), document.getElementById('app'));
 
 /***/ }),
 /* 1 */
@@ -24916,6 +24913,8 @@ function (_Component) {
     key: "render",
     value: function render() {
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("header", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "container"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "logo"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Logo")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("nav", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: "#"
@@ -24927,7 +24926,7 @@ function (_Component) {
         href: "#"
       }, "Link Four"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: "#"
-      }, "Link Five")));
+      }, "Link Five"))));
     }
   }]);
 
