@@ -24953,7 +24953,7 @@ var Hero = function Hero(_ref) {
   var Title = _ref.Title;
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "container"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, Title), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Helrwjak"));
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, Title));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Hero);
