@@ -35,10 +35,18 @@ nav {
     color: #111; }
 
 .AdBanner {
+  color: white;
+  background-color: #111; }
+
+.flex {
   width: 100%;
-  color: black;
-  padding: 5px;
-  background-color: white; }
-  .AdBanner div {
+  padding: 3px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+  .flex p {
     font-size: 14px;
-    text-align: justify; }
+    margin: 0px; }

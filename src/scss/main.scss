@@ -41,14 +41,17 @@ nav {
         }
     }
 }
-
 .AdBanner {
+    color: white;
+    background-color: #111;
+}
+.flex {
     width: 100%;
-    color: black;
-    padding: 5px;
-    background-color: white;
-    div {
+    padding: 3px;
+    display: flex;
+    justify-content: space-between;
+    p {
         font-size: 14px;
-        text-align: justify;
+        margin: 0px;
     }
 }

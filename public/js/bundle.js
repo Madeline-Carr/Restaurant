@@ -24991,7 +24991,9 @@ function (_Component) {
         className: "AdBanner"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "container"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "1257 Old Oak Rd. N. Midlothian, VA 23113"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "(804) 608-9288"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Mon-Fri 9-11 Sat 12-10 Closed Sunday")));
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: " flex"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "1257 Old Oak Rd. N. Midlothian, VA 23113"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "(804) 608-9288"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Mon-Fri 9-11 - Sat 12-10 - Closed Sunday"))));
     }
   }]);
 
