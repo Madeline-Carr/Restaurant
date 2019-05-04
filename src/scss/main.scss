@@ -6,7 +6,7 @@ header {
     // padding: 10px;
 }
 .background {
-    height: 800px;
+    height: 750px;
     background-image: url('../images/FoodLine.jpeg');
     /* Center and scale the image nicely */
     background-repeat: no-repeat;
@@ -21,7 +21,6 @@ a {
 }
 .logo {
     float: left;
-    font-size: 25px;
 }
 nav {
     text-decoration: none;
@@ -29,9 +28,13 @@ nav {
     text-align: center;
     margin-top: 42px;
     a {
+        font-size: 20px;
         &:hover {
             background-color: white;
             color: $dark_gray;
+        }
+        &:active {
+            color: $dark_red;
         }
     }
 }
@@ -50,4 +53,10 @@ nav {
         font-size: 14px;
         margin: 0px;
     }
+}
+
+.intro {
+    padding: 150px;
+    text-align: center;
+    font-size: 2em;
 }

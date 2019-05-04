@@ -24905,16 +24905,17 @@ function (_Component) {
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "logo"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Cosimo's Italian Restaurant")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("nav", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        href: "#",
+        className: "active"
+      }, "Home"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: "#"
-      }, "Link One"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+      }, "Menu"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: "#"
-      }, "Link Two"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+      }, "About Us"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: "#"
-      }, "Link Three"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        href: "#"
-      }, "Link Four"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        href: "#"
-      }, "Link Five")))));
+      }, "Contact"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "intro"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Welcome to Cosimo\u2019s Italian Restaurant"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", null, "Make a Reservation"))));
     }
   }]);
 

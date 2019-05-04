@@ -10,12 +10,17 @@ class Header extends Component {
                             <h2>Cosimo's Italian Restaurant</h2>
                         </div>
                         <nav>
-                            <a href="#">Link One</a>
-                            <a href="#">Link Two</a>
-                            <a href="#">Link Three</a>
-                            <a href="#">Link Four</a>
-                            <a href="#">Link Five</a>
+                            <a href="#" className="active">
+                                Home
+                            </a>
+                            <a href="#">Menu</a>
+                            <a href="#">About Us</a>
+                            <a href="#">Contact</a>
                         </nav>
+                    </div>
+                    <div className="intro">
+                        <h2>Welcome to Cosimo’s Italian Restaurant</h2>
+                        <button>Make a Reservation</button>
                     </div>
                 </div>
             </header>
