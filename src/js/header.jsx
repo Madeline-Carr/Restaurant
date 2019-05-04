@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 
 class Header extends Component {
-    state = { typeOfComponent: 'Child Component!' };
     render() {
         return (
             <header>

@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Header from './js/header';
 import Hero from './js/hero';
+import Header from './js/header';
 
 ReactDOM.render(
     <div>
