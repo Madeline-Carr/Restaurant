@@ -76,10 +76,33 @@ nav {
     margin: 25px 0;
     //padding: 120px;
     font-size: 1.5em;
-    .lightRed {
-        color: $light_red;
-    }
+
     .text {
         padding: 50px;
     }
+    .space {
+        margin: 90px 0 60px 0;
+    }
+}
+
+//Footer
+
+footer {
+    margin: 160px 0 20px 0;
+
+    .copyright {
+        text-align: center;
+    }
+    .container {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.lightRed {
+    color: $light_red;
+}
+
+.darkRed {
+    color: $dark_red;
 }

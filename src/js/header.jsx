@@ -5,7 +5,7 @@ class Header extends Component {
         return (
             <header>
                 <div className="background">
-                    <div className="container">
+                    <div className="wrapper">
                         <div className="logo">
                             <h2>Cosimo's Italian Restaurant</h2>
                         </div>

@@ -97,12 +97,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _js_header__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(14);
 /* harmony import */ var _js_adbanner__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(15);
 /* harmony import */ var _js_quoteBanner__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(16);
+/* harmony import */ var _js_footer__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(17);
 
 
 
 
 
-react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render(react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_js_adbanner__WEBPACK_IMPORTED_MODULE_3__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_js_header__WEBPACK_IMPORTED_MODULE_2__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_js_quoteBanner__WEBPACK_IMPORTED_MODULE_4__["default"], null)), document.getElementById('app'));
+
+react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render(react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_js_adbanner__WEBPACK_IMPORTED_MODULE_3__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_js_header__WEBPACK_IMPORTED_MODULE_2__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_js_quoteBanner__WEBPACK_IMPORTED_MODULE_4__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_js_footer__WEBPACK_IMPORTED_MODULE_5__["default"], null)), document.getElementById('app'));
 
 /***/ }),
 /* 1 */
@@ -24903,7 +24905,7 @@ function (_Component) {
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("header", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "background"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "container"
+        className: "wrapper"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "logo"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Cosimo's Italian Restaurant")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("nav", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
@@ -24971,7 +24973,7 @@ function (_Component) {
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "AdBanner"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "container"
+        className: "wrapper"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: " flex"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "1257 Old Oak Rd. N. Midlothian, VA 23113"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "(804) 608-9288"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Mon-Fri 9-11 - Sat 12-10 - Closed Sunday"))));
@@ -24997,13 +24999,43 @@ var QuoteBanner = function QuoteBanner() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "QuoteBanner"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "container text"
+    className: "wrapper text"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
     className: "lightRed"
-  }, "An Experience"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, "Here at Cosimo\u2019s we focus on providing you with an authentic Italian cuisine experience.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", null, "View our Menu"));
+  }, "An Experience"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, "Here at Cosimo\u2019s we focus on providing you with an authentic Italian cuisine experience.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+    className: "space"
+  }, "View our Menu"));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (QuoteBanner);
+
+/***/ }),
+/* 17 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(1);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+
+
+var Footer = function Footer() {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("footer", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "wrapper"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "container"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+    className: "darkRed"
+  }, "Hours of Operation"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Mon-Fri: 9 a.m. - 11 p.m.", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "Sat: 12 p.m - 10 p.m.", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "Closed Sunday")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+    className: "darkRed"
+  }, "Location"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Address: ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "1257 Old Oak Rd. N. Midlothian, VA 23113")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+    className: "darkRed"
+  }, "Contact Us"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Phone: (804) 608-9288", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "E-mail: Leon@LeonsRestaurant.com"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("hr", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "copyright"
+  }, "Copyright \xA9 2019 Madeline Carr \u2022 Richmond based Web Developer")));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Footer);
 
 /***/ })
 /******/ ]);

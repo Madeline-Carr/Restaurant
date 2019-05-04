@@ -5,7 +5,7 @@ body {
   padding: 0px;
   margin: 0px; }
 
-.container {
+.wrapper {
   width: 75%;
   margin: 0 auto; }
 
@@ -24,9 +24,6 @@ button {
   text-decoration: none; }
   button:hover {
     color: #ff731c; }
-
-.lightRed {
-  color: #ffaa76; }
 
 header {
   color: white; }
@@ -95,7 +92,25 @@ nav {
   text-align: center;
   margin: 25px 0;
   font-size: 1.5em; }
-  .QuoteBanner .lightRed {
-    color: #ffaa76; }
   .QuoteBanner .text {
     padding: 50px; }
+  .QuoteBanner .space {
+    margin: 90px 0 60px 0; }
+
+footer {
+  margin: 160px 0 20px 0; }
+  footer .copyright {
+    text-align: center; }
+  footer .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+
+.lightRed {
+  color: #ffaa76; }
+
+.darkRed {
+  color: #ff731c; }

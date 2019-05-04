@@ -7,7 +7,7 @@ body {
     margin: 0px;
 }
 
-.container {
+.wrapper {
     width: 75%;
     margin: 0 auto;
 }
@@ -30,8 +30,4 @@ button {
     &:hover {
         color: $dark_red;
     }
-}
-
-.lightRed {
-    color: $light_red;
 }
