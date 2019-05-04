@@ -1,8 +1,44 @@
 body {
   color: white;
   background-color: #111;
-  font-family: sans-serif; }
+  font-family: sans-serif;
+  padding: 0px;
+  margin: 0px; }
 
 .container {
   width: 70%;
   margin: 0 auto; }
+
+header {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  height: 70px; }
+
+a {
+  color: white;
+  text-decoration: none;
+  padding: 10px; }
+
+.logo {
+  float: left; }
+
+nav {
+  text-decoration: none;
+  color: white;
+  float: right;
+  text-align: center;
+  margin-top: 25px;
+  vertical-align: top; }
+  nav a:hover {
+    background-color: white;
+    color: #111; }
+
+.AdBanner {
+  width: 100%;
+  color: black;
+  padding: 5px;
+  background-color: white; }
+  .AdBanner div {
+    font-size: 14px;
+    text-align: justify; }
