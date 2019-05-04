@@ -29,6 +29,8 @@ nav {
     margin-top: 42px;
     a {
         font-size: 20px;
+        padding: 10px 10px;
+        margin-left: 40px;
         &:hover {
             background-color: white;
             color: $dark_gray;
@@ -59,4 +61,25 @@ nav {
     padding: 150px;
     text-align: center;
     font-size: 2em;
+}
+
+.QuoteBanner {
+    height: 300px;
+    background-image: url('../images/PizzaAndWineDark.jpeg');
+    // background-image: url('../images/darkwood.jpeg');
+    /* Center and scale the image nicely */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    text-align: center;
+    margin: 25px 0;
+    //padding: 120px;
+    font-size: 1.5em;
+    .lightRed {
+        color: $light_red;
+    }
+    .text {
+        padding: 50px;
+    }
 }

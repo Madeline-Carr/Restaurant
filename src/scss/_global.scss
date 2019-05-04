@@ -1,7 +1,7 @@
 //Global Styles
 body {
     color: white;
-    // background-color: $dark-gray;
+    background-color: $dark;
     font-family: 'Crimson Text', serif;
     padding: 0px;
     margin: 0px;
@@ -30,4 +30,8 @@ button {
     &:hover {
         color: $dark_red;
     }
+}
+
+.lightRed {
+    color: $light_red;
 }

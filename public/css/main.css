@@ -1,5 +1,6 @@
 body {
   color: white;
+  background-color: #0f0b02;
   font-family: 'Crimson Text', serif;
   padding: 0px;
   margin: 0px; }
@@ -23,6 +24,9 @@ button {
   text-decoration: none; }
   button:hover {
     color: #ff731c; }
+
+.lightRed {
+  color: #ffaa76; }
 
 header {
   color: white; }
@@ -49,7 +53,9 @@ nav {
   text-align: center;
   margin-top: 42px; }
   nav a {
-    font-size: 20px; }
+    font-size: 20px;
+    padding: 10px 10px;
+    margin-left: 40px; }
     nav a:hover {
       background-color: white;
       color: #111; }
@@ -77,3 +83,19 @@ nav {
   padding: 150px;
   text-align: center;
   font-size: 2em; }
+
+.QuoteBanner {
+  height: 300px;
+  background-image: url("../images/PizzaAndWineDark.jpeg");
+  /* Center and scale the image nicely */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  text-align: center;
+  margin: 25px 0;
+  font-size: 1.5em; }
+  .QuoteBanner .lightRed {
+    color: #ffaa76; }
+  .QuoteBanner .text {
+    padding: 50px; }
