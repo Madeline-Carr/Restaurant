@@ -1,19 +1,28 @@
 body {
   color: white;
-  background-color: #111;
-  font-family: sans-serif;
+  font-family: 'Crimson Text', serif;
   padding: 0px;
   margin: 0px; }
 
 .container {
-  width: 70%;
+  width: 75%;
   margin: 0 auto; }
 
+.logo {
+  font-family: 'Tangerine', cursive;
+  color: #ff731c;
+  height: 80px; }
+
 header {
-  background-color: black;
-  color: white;
-  padding: 10px;
-  height: 70px; }
+  color: white; }
+
+.background {
+  height: 800px;
+  background-image: url("../images/FoodLine.jpeg");
+  /* Center and scale the image nicely */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom; }
 
 a {
   color: white;
@@ -21,22 +30,21 @@ a {
   padding: 10px; }
 
 .logo {
-  float: left; }
+  float: left;
+  font-size: 25px; }
 
 nav {
   text-decoration: none;
-  color: white;
   float: right;
   text-align: center;
-  margin-top: 25px;
-  vertical-align: top; }
+  margin-top: 42px; }
   nav a:hover {
     background-color: white;
     color: #111; }
 
 .AdBanner {
   color: white;
-  background-color: #111; }
+  background-color: #0f0b02; }
 
 .flex {
   width: 100%;

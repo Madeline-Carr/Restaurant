@@ -1,0 +1,20 @@
+//Global Styles
+body {
+    color: white;
+    // background-color: $dark-gray;
+    font-family: 'Crimson Text', serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+.container {
+    width: 75%;
+    margin: 0 auto;
+}
+
+// Logo
+.logo {
+    font-family: 'Tangerine', cursive;
+    color: $dark_red;
+    height: 80px;
+}

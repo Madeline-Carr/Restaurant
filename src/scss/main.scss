@@ -1,23 +1,18 @@
 @import 'variables';
-
-body {
-    color: white;
-    background-color: $dark-gray;
-    font-family: sans-serif;
-    padding: 0px;
-    margin: 0px;
-}
-
-.container {
-    width: 70%;
-    margin: 0 auto;
-}
+@import 'global';
 
 header {
-    background-color: black;
     color: white;
-    padding: 10px;
-    height: 70px;
+    // padding: 10px;
+}
+.background {
+    height: 800px;
+    background-image: url('../images/FoodLine.jpeg');
+    /* Center and scale the image nicely */
+    background-repeat: no-repeat;
+    background-size: cover;
+    // background-attachment: fixed;
+    background-position: bottom;
 }
 a {
     color: white;
@@ -26,24 +21,25 @@ a {
 }
 .logo {
     float: left;
+    font-size: 25px;
 }
 nav {
     text-decoration: none;
-    color: white;
     float: right;
     text-align: center;
-    margin-top: 25px;
-    vertical-align: top;
+    margin-top: 42px;
     a {
         &:hover {
             background-color: white;
-            color: #111;
+            color: $dark_gray;
         }
     }
 }
+
+// AdBanner
 .AdBanner {
     color: white;
-    background-color: #111;
+    background-color: $dark;
 }
 .flex {
     width: 100%;
