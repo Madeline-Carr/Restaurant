@@ -9,6 +9,9 @@ const QuoteBanner = () => {
                     Italian cuisine experience.
                 </h4>
             </div>
+            <br />
+            <br />
+            <button>View our Menu</button>
         </div>
     );
 };

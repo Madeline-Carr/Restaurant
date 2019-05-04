@@ -25000,7 +25000,7 @@ var QuoteBanner = function QuoteBanner() {
     className: "container text"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
     className: "lightRed"
-  }, "An Experience"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, "Here at Cosimo\u2019s we focus on providing you with an authentic Italian cuisine experience.")));
+  }, "An Experience"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, "Here at Cosimo\u2019s we focus on providing you with an authentic Italian cuisine experience.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", null, "View our Menu"));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (QuoteBanner);
