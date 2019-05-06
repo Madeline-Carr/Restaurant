@@ -1,23 +1,12 @@
 import React, { Component } from 'react';
+import NavBar from './navBar';
 
 class Header extends Component {
     render() {
         return (
             <header>
+                <NavBar />
                 <div className="background">
-                    <div className="wrapper">
-                        <div className="logo">
-                            <h2>Cosimo's Italian Restaurant</h2>
-                        </div>
-                        <nav>
-                            <a href="#" className="active">
-                                Home
-                            </a>
-                            <a href="#">Menu</a>
-                            <a href="#">About Us</a>
-                            <a href="#">Contact</a>
-                        </nav>
-                    </div>
                     <div className="intro">
                         <h2>Welcome to Cosimo’s Italian Restaurant</h2>
                         <button>Make a Reservation</button>
