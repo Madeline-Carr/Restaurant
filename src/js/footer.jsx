@@ -7,6 +7,7 @@ const Footer = () => {
                 <div className="container">
                     <div>
                         <h3 className="darkRed">Hours of Operation</h3>
+                        <hr />
                         <p>
                             Mon-Fri: 9 a.m. - 11 p.m.
                             <br />
@@ -15,8 +16,10 @@ const Footer = () => {
                             Closed Sunday
                         </p>
                     </div>
+
                     <div>
                         <h3 className="darkRed">Location</h3>
+                        <hr />
                         <p>
                             Address: <br />
                             1257 Old Oak Rd. N. Midlothian, VA 23113
@@ -24,6 +27,7 @@ const Footer = () => {
                     </div>
                     <div>
                         <h3 className="darkRed">Contact Us</h3>
+                        <hr />
                         <p>
                             Phone: (804) 608-9288
                             <br />
