@@ -114,3 +114,13 @@ footer {
 
 .darkRed {
   color: #ff731c; }
+
+@media only screen and (max-width: 1090px) {
+  .logo {
+    float: none;
+    text-align: center; }
+  nav {
+    float: none;
+    padding: 10px; }
+    nav a {
+      margin: 20px; } }

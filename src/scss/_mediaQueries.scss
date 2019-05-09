@@ -1,1 +1,15 @@
 //Media Queries
+@media only screen and (max-width: 1090px) {
+    .logo {
+        float: none;
+        text-align: center;
+    }
+    nav {
+        float: none;
+        padding: 10px;
+        a {
+            margin: 20px;
+        }
+        //  text-align: center;
+    }
+}
