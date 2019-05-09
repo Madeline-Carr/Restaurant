@@ -29003,7 +29003,9 @@ var NavBar = function NavBar() {
     className: "wrapper"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "logo"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Cosimo's Italian Restaurant")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("nav", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Cosimo's Italian Restaurant")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("nav", {
+    className: "nav"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     href: "#",
     className: "active"
   }, "Home"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {

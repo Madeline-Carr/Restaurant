@@ -5,7 +5,7 @@ const NavBar = () => {
             <div className="logo">
                 <h2>Cosimo's Italian Restaurant</h2>
             </div>
-            <nav>
+            <nav className="nav">
                 <a href="#" className="active">
                     Home
                 </a>
