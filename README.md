@@ -1,23 +1,13 @@
-# My-Starter-Kit
+# Cosimo's Italian Restaurant
 
-## Why did I create this?
+## What is this?
 
-I wanted to learn how to use gulp, webpack, and babel in more detail. This project was extremely helpful. There were a lot of things I could do by reading documentation but there were some other problems that required more resources. I had some interesting difficulties when I was using tutorials that were outdated or when I wanted to do something in a new way. It was a lot of fun finding new ways and solutions to solve these unique problems. I especially like the file setup that I am using for react and sass because it is very quick and easy to use.
+This website is a test of my design and web development skills. The goal is to understand my work flow better and to see what problems might arise when I am working based on a specific design.
 
-## How to use?
+## Tools & Technology
 
-To use this kit you need node, npm, and gulp installed.
+I started of by using my starter kit which can be found in my projects. I used react and sass for the design. This was very helpful because there are repeated elements on the diffrent pages. I am using github pages to host this website.
 
-Once you open the project type `npm install` or `npm i` to install node_modules.
+## Design
 
-After you have the node_modules run `gulp` to start the features.
-
-There are basic files for react and sass that are already made. You can delete them and make your own. They need to stay in the same folder or a child folder for all the features to work.
-
-## What Features are Included?
-
--   SASS Compiler
--   CSS Auto Prefixer
--   CSS Minify
--   React
--   Automatic Reload
+I used Adobe XD to design this website. The goal was to have a photo oriented design. The hero image on the home page is an example of the photo working with the text as a design element and not just placed into the code. The photos came from pixabay.com and pexels.com.
