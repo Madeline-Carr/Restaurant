@@ -39,7 +39,8 @@ header {
 a {
   color: white;
   text-decoration: none;
-  padding: 10px; }
+  padding: 10px;
+  display: inline-block; }
 
 .logo {
   float: left; }
@@ -119,11 +120,14 @@ footer {
   .logo {
     float: none;
     text-align: center; }
+  h2 {
+    margin: 20px 5px 5px 5px; }
   nav {
     float: none;
-    padding: 10px; }
+    padding: 10px;
+    margin: 0; }
     nav a {
-      margin: 20px; } }
+      margin: 2px; } }
 
 @media only screen and (min-width: 1815px) {
   body {
