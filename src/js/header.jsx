@@ -5,8 +5,8 @@ class Header extends Component {
     render() {
         return (
             <header>
-                <NavBar />
                 <div className="background">
+                    <NavBar />
                     <div className="intro">
                         <h2>Welcome to Cosimo’s Italian Restaurant</h2>
                         <button>Make a Reservation</button>

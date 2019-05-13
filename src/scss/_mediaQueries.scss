@@ -5,7 +5,8 @@
         text-align: center;
     }
     h2 {
-        margin: 20px 5px 5px 5px;
+        padding: 30px 0px 0px 0px;
+        margin: 0px 5px 5px 5px;
     }
     nav {
         float: none;
@@ -15,6 +16,12 @@
             margin: 2px;
         }
         //  text-align: center;
+    }
+    .intro {
+        padding: 0px;
+        h2 {
+            font-size: 1.1em;
+        }
     }
 }
 
