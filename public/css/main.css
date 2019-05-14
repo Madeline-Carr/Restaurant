@@ -60,6 +60,10 @@ nav {
     nav a:active {
       color: #ff731c; }
 
+button {
+  margin: 30px;
+  padding: 10px 50px; }
+
 .AdBanner {
   color: white;
   background-color: #0f0b02; }
