@@ -113,6 +113,8 @@ footer {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between; }
+    footer .container div {
+      width: 30%; }
 
 .lightRed {
   color: #ffaa76; }
