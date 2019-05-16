@@ -138,9 +138,25 @@ footer {
   .intro {
     padding: 0px; }
     .intro h2 {
-      font-size: 1.1em; } }
+      font-size: 1.1em; }
+  .QuoteBanner {
+    height: 300px; }
+    .QuoteBanner .space {
+      margin: 20px; } }
 
 @media only screen and (min-width: 1815px) {
   body {
     width: 80%;
     margin: 0 auto; } }
+
+@media only screen and (min-width: 500px) {
+  .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+    .container div {
+      width: 10%; } }

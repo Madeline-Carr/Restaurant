@@ -1,4 +1,5 @@
 //Media Queries
+
 @media only screen and (max-width: 1090px) {
     .logo {
         float: none;
@@ -23,12 +24,31 @@
             font-size: 1.1em;
         }
     }
+
+    .QuoteBanner {
+        height: 300px;
+
+        .space {
+            margin: 20px;
+        }
+    }
 }
 
-//Media Queries
 @media only screen and (min-width: 1815px) {
     body {
         width: 80%;
         margin: 0 auto;
+    }
+}
+
+//Small Screens
+@media only screen and (min-width: 500px) {
+    //Footer
+    .container {
+        display: flex;
+        flex-direction: column;
+        div {
+            width: 10%;
+        }
     }
 }
