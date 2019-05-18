@@ -8,7 +8,6 @@ import Footer from './footer';
 const Home = () => {
     return (
         <div>
-            <AdBanner />
             <Header />
             <QuoteBanner />
             <Footer />
