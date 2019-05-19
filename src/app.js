@@ -5,6 +5,7 @@ import AdBanner from './js/adbanner';
 import Menu from './js/menu';
 import AboutUs from './js/aboutUs';
 import Contact from './js/contact';
+import Footer from './js/footer';
 const App = () => {
     return (
         <React.Fragment>
@@ -19,6 +20,7 @@ const App = () => {
                     <Redirect to="/home" />
                 </Switch>
             </main>
+            <Footer />
         </React.Fragment>
     );
 };
