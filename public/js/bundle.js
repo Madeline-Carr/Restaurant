@@ -29203,7 +29203,13 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var Menu = function Menu() {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_shortNav__WEBPACK_IMPORTED_MODULE_1__["default"], null));
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_shortNav__WEBPACK_IMPORTED_MODULE_1__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "wrapper"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "Our Menu"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+    className: "darkRed"
+  }, "Pizza"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+    className: "lightRed"
+  }, "Pizzas are only available in personal sizes.", ' '), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Cheese Pizza"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Pepperoni Pizza")));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Menu);
