@@ -3,6 +3,7 @@ import { Route, Redirect, Switch } from 'react-router-dom';
 import Home from './js/home';
 import AdBanner from './js/adbanner';
 import Menu from './js/menu';
+import AboutUs from './js/aboutUs';
 import Contact from './js/contact';
 const App = () => {
     return (
@@ -10,7 +11,7 @@ const App = () => {
             <AdBanner />
             <main className="content">
                 <Switch>
-                    <Route path="/about-us" component={Menu} />
+                    <Route path="/about-us" component={AboutUs} />
                     <Route path="/contact" component={Contact} />
                     <Route path="/menu" component={Menu} />
                     <Route path="/home" component={Home} />
