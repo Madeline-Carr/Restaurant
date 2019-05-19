@@ -28937,6 +28937,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _js_home__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(38);
 /* harmony import */ var _js_adbanner__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(43);
 /* harmony import */ var _js_menu__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(44);
+/* harmony import */ var _js_contact__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(46);
+
 
 
 
@@ -28951,7 +28953,7 @@ var App = function App() {
     component: _js_menu__WEBPACK_IMPORTED_MODULE_4__["default"]
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Route"], {
     path: "/contact",
-    component: _js_menu__WEBPACK_IMPORTED_MODULE_4__["default"]
+    component: _js_contact__WEBPACK_IMPORTED_MODULE_5__["default"]
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Route"], {
     path: "/menu",
     component: _js_menu__WEBPACK_IMPORTED_MODULE_4__["default"]
@@ -29248,6 +29250,30 @@ var ShortNav = function ShortNav() {
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (ShortNav);
+
+/***/ }),
+/* 46 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(1);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _shortNav__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(45);
+
+
+
+var Contact = function Contact() {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_shortNav__WEBPACK_IMPORTED_MODULE_1__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "wrapper"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "Contact Us"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+    className: "darkRed"
+  }, "Email:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+    className: "lightRed"
+  }, "Leon@LeonsRestaurant.com")));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Contact);
 
 /***/ })
 /******/ ]);
