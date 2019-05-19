@@ -36,6 +36,14 @@ header {
   background-size: cover;
   background-position: bottom; }
 
+.backgroundSmall {
+  height: 130px;
+  background-image: url("../images/FoodLine.jpeg");
+  /* Center and scale the image nicely */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top; }
+
 a {
   color: white;
   text-decoration: none;
@@ -104,8 +112,6 @@ button {
 
 footer {
   margin: 160px 0 20px 0; }
-  footer .copyright {
-    text-align: center; }
   footer .container {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -115,6 +121,8 @@ footer {
             justify-content: space-between; }
     footer .container div {
       width: 30%; }
+  footer .copyright {
+    text-align: center; }
 
 .lightRed {
   color: #ffaa76; }

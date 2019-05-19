@@ -1,10 +1,9 @@
-import React, { Component } from 'react';
-import NavBar from './navBar';
+import React from 'react';
+import ShortNav from './shortNav';
 const Menu = () => {
     return (
         <div>
-            <NavBar />
-            <p>Menu Testing</p>
+            <ShortNav />
         </div>
     );
 };
