@@ -29310,7 +29310,7 @@ var Contact = function Contact() {
     className: "darkRed"
   }, "Email:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
     className: "lightRed"
-  }, "Leon@LeonsRestaurant.com"))));
+  }, "Cosimo@CosimosRestaurant.com"))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Contact);
@@ -29342,7 +29342,7 @@ var Footer = function Footer() {
     className: "one"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
     className: "darkRed"
-  }, "Contact Us"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("hr", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Phone: (804) 608-9288", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "E-mail: Leon@LeonsRestaurant.com"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("hr", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  }, "Contact Us"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("hr", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Phone: (804) 608-9288", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "E-mail: Cosimo@CosimosRestaurant.com"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("hr", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: "copyright"
   }, "Copyright \xA9 2019 Madeline Carr \u2022 Richmond based Web Developer")));
 };

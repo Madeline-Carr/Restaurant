@@ -33,7 +33,7 @@ const Footer = () => {
                         <p>
                             Phone: (804) 608-9288
                             <br />
-                            E-mail: Leon@LeonsRestaurant.com
+                            E-mail: Cosimo@CosimosRestaurant.com
                         </p>
                     </div>
                 </div>
