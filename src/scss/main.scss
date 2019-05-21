@@ -126,4 +126,11 @@ footer {
     color: $dark_red;
 }
 
+//
+.flexTwo {
+    display: flex;
+    img {
+        width: 200px;
+    }
+}
 @import 'mediaQueries';

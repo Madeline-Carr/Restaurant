@@ -130,6 +130,13 @@ footer {
 .darkRed {
   color: #fc6913; }
 
+.flexTwo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  .flexTwo img {
+    width: 200px; }
+
 @media only screen and (max-width: 1090px) {
   .logo {
     float: none;
