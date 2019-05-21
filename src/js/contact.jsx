@@ -1,6 +1,5 @@
 import React from 'react';
 import ShortNav from './shortNav';
-import QuoteBanner from './common/quoteBanner';
 const Contact = () => {
     return (
         <div>
@@ -18,7 +17,6 @@ const Contact = () => {
                     <h3 className="lightRed">Leon@LeonsRestaurant.com</h3>
                 </div>
             </div>
-            <QuoteBanner />
         </div>
     );
 };

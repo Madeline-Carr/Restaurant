@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import NavBar from '../navBar';
+import BigButton from '../bigButton';
 
 class Header extends Component {
     render() {
@@ -9,7 +10,7 @@ class Header extends Component {
                     <NavBar />
                     <div className="intro">
                         <h2>Welcome to Cosimo’s Italian Restaurant</h2>
-                        <button>Make a Reservation</button>
+                        <BigButton message="Make a Reservation" />
                     </div>
                 </div>
             </header>

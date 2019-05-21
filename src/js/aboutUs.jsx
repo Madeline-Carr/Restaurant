@@ -1,5 +1,6 @@
 import React from 'react';
 import ShortNav from './shortNav';
+import QuoteBanner from './common/quoteBanner';
 const AboutUs = () => {
     return (
         <div>
@@ -23,6 +24,10 @@ const AboutUs = () => {
                     </div>
                 </div>
             </div>
+            <QuoteBanner
+                header="Our Motto"
+                quote="Here at Cosimo’s our food is made fresh everyday."
+            />
         </div>
     );
 };

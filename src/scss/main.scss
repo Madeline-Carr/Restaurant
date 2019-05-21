@@ -52,27 +52,17 @@ nav {
         }
     }
 }
-button {
-    margin: 30px;
-    padding: 10px 50px;
-}
 
 // AdBanner
 .AdBanner {
     color: white;
     background-color: $dark;
-}
-.flex {
-    width: 100%;
-    padding: 3px;
-    display: flex;
-    justify-content: space-between;
     p {
         font-size: 14px;
         margin: 0px;
     }
 }
-
+//Hero Text
 .intro {
     padding: 150px;
     text-align: center;
@@ -119,13 +109,19 @@ footer {
         margin: 0 20px;
     }
 }
-
-.space {
-    width: 300px;
-    margin: 10 auto;
+.space-Between-Container {
+    display: flex;
+    justify-content: space-between;
 }
+
+// Center an element
 .center {
     text-align: center;
+}
+//Big Button
+.space {
+    margin: 30px;
+    padding: 10px 50px;
 }
 
 @import 'mediaQueries';

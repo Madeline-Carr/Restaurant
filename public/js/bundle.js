@@ -28984,8 +28984,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(1);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _common_header__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(39);
-/* harmony import */ var _common_quoteBanner__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(41);
-/* harmony import */ var _bigButton__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(42);
+/* harmony import */ var _common_quoteBanner__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(42);
+/* harmony import */ var _bigButton__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(41);
 
 
 
@@ -28993,8 +28993,8 @@ __webpack_require__.r(__webpack_exports__);
 
 var Home = function Home() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_common_header__WEBPACK_IMPORTED_MODULE_1__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_common_quoteBanner__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    quote: "Here at Cosimo\u2019s we focus on providing you with an authentic Italian cuisine experience.",
-    header: "An Experience"
+    header: "An Experience",
+    quote: "Here at Cosimo\u2019s we focus on providing you with an authentic Italian cuisine experience."
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_bigButton__WEBPACK_IMPORTED_MODULE_3__["default"], {
     message: "View our Menu"
   }));
@@ -29011,6 +29011,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(1);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _navBar__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(40);
+/* harmony import */ var _bigButton__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(41);
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -29028,6 +29029,7 @@ function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.g
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
 
 function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+
 
 
 
@@ -29050,7 +29052,9 @@ function (_Component) {
         className: "background"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_navBar__WEBPACK_IMPORTED_MODULE_1__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "intro"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Welcome to Cosimo\u2019s Italian Restaurant"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", null, "Make a Reservation"))));
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Welcome to Cosimo\u2019s Italian Restaurant"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_bigButton__WEBPACK_IMPORTED_MODULE_2__["default"], {
+        message: "Make a Reservation"
+      }))));
     }
   }]);
 
@@ -29102,17 +29106,15 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 
 
-var QuoteBanner = function QuoteBanner(props) {
+var BigButton = function BigButton(props) {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "QuoteBanner"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "wrapper text"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-    className: "lightRed"
-  }, props.header), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, props.quote)));
+    className: "center"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+    className: "space"
+  }, props.message));
 };
 
-/* harmony default export */ __webpack_exports__["default"] = (QuoteBanner);
+/* harmony default export */ __webpack_exports__["default"] = (BigButton);
 
 /***/ }),
 /* 42 */
@@ -29124,15 +29126,17 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 
 
-var BigButton = function BigButton(props) {
+var QuoteBanner = function QuoteBanner(props) {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "center"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
-    className: "space"
-  }, props.message));
+    className: "QuoteBanner"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "wrapper text"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+    className: "lightRed"
+  }, props.header), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, props.quote)));
 };
 
-/* harmony default export */ __webpack_exports__["default"] = (BigButton);
+/* harmony default export */ __webpack_exports__["default"] = (QuoteBanner);
 
 /***/ }),
 /* 43 */
@@ -29181,7 +29185,7 @@ function (_Component) {
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "wrapper"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: " flex"
+        className: "space-Between-Container"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "1257 Old Oak Rd. N. Midlothian, VA 23113"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "(804) 608-9288"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Mon-Fri 9-11 - Sat 12-10 - Closed Sunday"))));
     }
   }]);
@@ -29259,6 +29263,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(1);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _shortNav__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(45);
+/* harmony import */ var _common_quoteBanner__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(42);
+
 
 
 
@@ -29275,7 +29281,10 @@ var AboutUs = function AboutUs() {
     width: "300px"
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "two"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "About Us"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Since 1992, Cosimo\u2019s Italian Restaurant has been serving authentic Italian cuisine. We have been located in Midlothian since 1996.")))));
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "About Us"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Since 1992, Cosimo\u2019s Italian Restaurant has been serving authentic Italian cuisine. We have been located in Midlothian since 1996.")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_common_quoteBanner__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    header: "Our Motto",
+    quote: "Here at Cosimo\u2019s our food is made fresh everyday."
+  }));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (AboutUs);
@@ -29289,8 +29298,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(1);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _shortNav__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(45);
-/* harmony import */ var _common_quoteBanner__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(41);
-
 
 
 
@@ -29303,7 +29310,7 @@ var Contact = function Contact() {
     className: "darkRed"
   }, "Email:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
     className: "lightRed"
-  }, "Leon@LeonsRestaurant.com"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_common_quoteBanner__WEBPACK_IMPORTED_MODULE_2__["default"], null));
+  }, "Leon@LeonsRestaurant.com"))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Contact);

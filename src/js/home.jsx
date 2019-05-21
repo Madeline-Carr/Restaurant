@@ -8,9 +8,9 @@ const Home = () => {
         <div>
             <Header />
             <QuoteBanner
+                header="An Experience"
                 quote="Here at Cosimo’s we focus on providing you with an authentic
                     Italian cuisine experience."
-                header="An Experience"
             />
             <BigButton message="View our Menu" />
         </div>

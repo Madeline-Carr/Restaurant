@@ -74,24 +74,10 @@ nav {
     nav a:active {
       color: #fc6913; }
 
-button {
-  margin: 30px;
-  padding: 10px 50px; }
-
 .AdBanner {
   color: white;
   background-color: #0f0b02; }
-
-.flex {
-  width: 100%;
-  padding: 3px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between; }
-  .flex p {
+  .AdBanner p {
     font-size: 14px;
     margin: 0px; }
 
@@ -135,12 +121,20 @@ footer {
   .container .middle {
     margin: 0 20px; }
 
-.space {
-  width: 300px;
-  margin: 10 auto; }
+.space-Between-Container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
 
 .center {
   text-align: center; }
+
+.space {
+  margin: 30px;
+  padding: 10px 50px; }
 
 /*
 @media only screen and (max-width: 1090px) {
