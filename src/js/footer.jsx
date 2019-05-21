@@ -5,7 +5,7 @@ const Footer = () => {
         <footer>
             <div className="wrapper">
                 <div className="container">
-                    <div>
+                    <div className="one">
                         <h3 className="darkRed">Hours of Operation</h3>
                         <hr />
                         <p>
@@ -17,15 +17,17 @@ const Footer = () => {
                         </p>
                     </div>
 
-                    <div>
+                    <div className="one middle">
                         <h3 className="darkRed">Location</h3>
                         <hr />
                         <p>
                             Address: <br />
-                            1257 Old Oak Rd. N. Midlothian, VA 23113
+                            1257 Old Oak Rd. <br />
+                            North Midlothian <br />
+                            VA, 23113 <br />
                         </p>
                     </div>
-                    <div>
+                    <div className="one">
                         <h3 className="darkRed">Contact Us</h3>
                         <hr />
                         <p>

@@ -94,43 +94,38 @@ button {
     .text {
         padding: 50px;
     }
-    .space {
-        margin: 90px 0 60px 0;
-    }
 }
 
 //Footer
 
 footer {
-    margin: 160px 0 20px 0;
-
-    .container {
-        display: flex;
-        justify-content: space-between;
-
-        div {
-            width: 30%;
-        }
-    }
-    .copyright {
-        text-align: center;
-    }
+    margin: 20px 0 20px 0;
 }
 
-//Color Text
-.lightRed {
-    color: $light_red;
+.copyright {
+    text-align: center;
 }
-
-.darkRed {
-    color: $dark_red;
-}
-
-//
-.flexTwo {
+//FlexBox
+.container {
     display: flex;
-    img {
-        width: 200px;
+
+    .one {
+        flex-grow: 1;
+    }
+    .two {
+        flex-grow: 2;
+    }
+    .middle {
+        margin: 0 20px;
     }
 }
+
+.space {
+    width: 300px;
+    margin: 10 auto;
+}
+.center {
+    text-align: center;
+}
+
 @import 'mediaQueries';
