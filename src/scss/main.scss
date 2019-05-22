@@ -129,6 +129,11 @@ footer {
 }
 
 //Lists
+.menu {
+    hr {
+        margin: 0 30px;
+    }
+}
 ul {
     list-style-type: none;
     padding: 0px;
@@ -154,6 +159,11 @@ ul {
     content: '';
     border-bottom: dotted 2px $light_red;
     flex: 1;
+}
+
+.small_right {
+    margin-left: 20%;
+    width: 80%;
 }
 
 @import 'mediaQueries';

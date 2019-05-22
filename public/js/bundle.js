@@ -28937,9 +28937,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _js_home__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(38);
 /* harmony import */ var _js_adbanner__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(43);
 /* harmony import */ var _js_menu__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(44);
-/* harmony import */ var _js_aboutUs__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(46);
-/* harmony import */ var _js_contact__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(47);
-/* harmony import */ var _js_footer__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(48);
+/* harmony import */ var _js_aboutUs__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(49);
+/* harmony import */ var _js_contact__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(50);
+/* harmony import */ var _js_footer__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(51);
 
 
 
@@ -29204,27 +29204,21 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(1);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _shortNav__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(45);
+/* harmony import */ var _pizzaMenu__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(46);
+/* harmony import */ var _pastaMenu__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(48);
+
+
 
 
 
 var Menu = function Menu() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_shortNav__WEBPACK_IMPORTED_MODULE_1__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "wrapper"
+    className: "wrapper "
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "small_right"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
     className: "center"
-  }, "Our Menu"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "center"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-    className: "darkRed largeText"
-  }, "Pizza"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
-    className: "lightRed"
-  }, ' ', "Pizzas are only available in personal sizes.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    "class": "listItem"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
-    "class": "item"
-  }, "Cheese Pizza:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
-    "class": "price"
-  }, "$15.00")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Lorem ipsum dolor sit amet consectetur adipisicing elit. At assumenda fuga illum quia eum cumque minus, sequi, officia fugiat est delectus adipisci maiores nostrum enim ea, ipsum fugit ullam harum!"))));
+  }, "Our Menu"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_pizzaMenu__WEBPACK_IMPORTED_MODULE_2__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_pastaMenu__WEBPACK_IMPORTED_MODULE_3__["default"], null))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Menu);
@@ -29272,6 +29266,120 @@ var ShortNav = function ShortNav() {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(1);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _menuItem__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(47);
+
+
+
+var PizzaMenu = function PizzaMenu() {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "center"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+    className: "darkRed largeText"
+  }, "Pizza"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+    className: "lightRed"
+  }, ' ', "Pizzas are only available in personal sizes.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "container menu"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "one"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_menuItem__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    name: "Cheese Pizza",
+    price: "15.50",
+    description: "This is a pizza with cheese."
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_menuItem__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    name: "Pepperoni Pizza",
+    price: "17.50",
+    description: "This is a pizza with cheese and pepperoni."
+  }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("hr", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "one"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_menuItem__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    name: "Cheese Pizza",
+    price: "15.50",
+    description: "This is a pizza with cheese."
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_menuItem__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    name: "Pepperoni Pizza",
+    price: "17.50",
+    description: "This is a pizza with cheese and pepperoni."
+  })))));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (PizzaMenu);
+
+/***/ }),
+/* 47 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(1);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+
+
+var MenuItem = function MenuItem(props) {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    "class": "listItem"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    "class": "item"
+  }, props.name, ":"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    "class": "price"
+  }, "$", props.price)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, props.description));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (MenuItem);
+
+/***/ }),
+/* 48 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(1);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _menuItem__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(47);
+
+
+
+var PizzaMenu = function PizzaMenu() {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "center"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+    className: "darkRed largeText"
+  }, "Pasta"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+    className: "lightRed"
+  }, ' ', "Pizzas are only available in personal sizes.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "container menu"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "one"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_menuItem__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    name: "Cheese Pizza",
+    price: "15.50",
+    description: "This is a pizza with cheese."
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_menuItem__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    name: "Pepperoni Pizza",
+    price: "17.50",
+    description: "This is a pizza with cheese and pepperoni."
+  }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("hr", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "one"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_menuItem__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    name: "Cheese Pizza",
+    price: "15.50",
+    description: "This is a pizza with cheese."
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_menuItem__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    name: "Pepperoni Pizza",
+    price: "17.50",
+    description: "This is a pizza with cheese and pepperoni."
+  })))));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (PizzaMenu);
+
+/***/ }),
+/* 49 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(1);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _shortNav__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(45);
 /* harmony import */ var _common_quoteBanner__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(42);
 
@@ -29300,7 +29408,7 @@ var AboutUs = function AboutUs() {
 /* harmony default export */ __webpack_exports__["default"] = (AboutUs);
 
 /***/ }),
-/* 47 */
+/* 50 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -29326,7 +29434,7 @@ var Contact = function Contact() {
 /* harmony default export */ __webpack_exports__["default"] = (Contact);
 
 /***/ }),
-/* 48 */
+/* 51 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
