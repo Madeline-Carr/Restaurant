@@ -124,4 +124,36 @@ footer {
     padding: 10px 50px;
 }
 
+.largeText {
+    font-size: 2em;
+}
+
+//Lists
+ul {
+    list-style-type: none;
+    padding: 0px;
+}
+
+.listItem {
+    display: flex;
+
+    .item {
+        color: $dark_red;
+        flex: 1;
+        display: flex;
+    }
+}
+
+.price {
+    color: $dark_red;
+    text-align: right;
+    flex: 0 0 4em;
+}
+
+.item:after {
+    content: '';
+    border-bottom: dotted 2px $light_red;
+    flex: 1;
+}
+
 @import 'mediaQueries';
