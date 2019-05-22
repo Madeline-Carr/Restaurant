@@ -29324,11 +29324,11 @@ __webpack_require__.r(__webpack_exports__);
 
 var MenuItem = function MenuItem(props) {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    "class": "listItem"
+    className: "listItem"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
-    "class": "item"
+    className: "item"
   }, props.name, ":"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
-    "class": "price"
+    className: "price"
   }, "$", props.price)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, props.description));
 };
 
