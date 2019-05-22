@@ -29213,7 +29213,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var Menu = function Menu() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: "../images/halfPizza.png",
+    src: "./images/halfPizza.png",
     alt: "",
     className: "sideImage"
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
