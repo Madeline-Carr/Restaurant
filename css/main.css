@@ -1,3 +1,9 @@
+.lightRed {
+  color: #ffaa76; }
+
+.darkRed {
+  color: #fc6913; }
+
 body {
   color: white;
   background-color: #0f0b02;
@@ -11,7 +17,7 @@ body {
 
 .logo {
   font-family: 'Tangerine', cursive;
-  color: #ff731c;
+  color: #fc6913;
   font-size: 30px; }
 
 button {
@@ -23,7 +29,7 @@ button {
   font-size: 24px;
   text-decoration: none; }
   button:hover {
-    color: #ff731c; }
+    color: #fc6913; }
 
 header {
   color: white; }
@@ -36,10 +42,19 @@ header {
   background-size: cover;
   background-position: bottom; }
 
+.backgroundSmall {
+  height: 130px;
+  background-image: url("../images/FoodLine.jpeg");
+  /* Center and scale the image nicely */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top; }
+
 a {
   color: white;
   text-decoration: none;
-  padding: 10px; }
+  padding: 10px;
+  display: inline-block; }
 
 .logo {
   float: left; }
@@ -57,22 +72,12 @@ nav {
       background-color: white;
       color: #111; }
     nav a:active {
-      color: #ff731c; }
+      color: #fc6913; }
 
 .AdBanner {
   color: white;
   background-color: #0f0b02; }
-
-.flex {
-  width: 100%;
-  padding: 3px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between; }
-  .flex p {
+  .AdBanner p {
     font-size: 14px;
     margin: 0px; }
 
@@ -94,23 +99,145 @@ nav {
   font-size: 1.5em; }
   .QuoteBanner .text {
     padding: 50px; }
-  .QuoteBanner .space {
-    margin: 90px 0 60px 0; }
 
 footer {
-  margin: 160px 0 20px 0; }
-  footer .copyright {
-    text-align: center; }
-  footer .container {
+  margin: 20px 0 20px 0; }
+
+.copyright {
+  text-align: center; }
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  .container .one {
+    -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1; }
+  .container .two {
+    -webkit-box-flex: 2;
+        -ms-flex-positive: 2;
+            flex-grow: 2; }
+  .container .middle {
+    margin: 0 20px; }
+
+.space-Between-Container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+
+.center {
+  text-align: center; }
+
+.space {
+  margin: 30px;
+  padding: 10px 50px; }
+
+.largeText {
+  font-size: 2em; }
+
+.menu hr {
+  margin: 0 30px; }
+
+ul {
+  list-style-type: none;
+  padding: 0px; }
+
+.listItem {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  .listItem .item {
+    color: #fc6913;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
     display: -webkit-box;
     display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between; }
+    display: flex; }
 
-.lightRed {
-  color: #ffaa76; }
+.price {
+  color: #fc6913;
+  text-align: right;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 4em;
+          flex: 0 0 4em; }
 
-.darkRed {
-  color: #ff731c; }
+.item:after {
+  content: '';
+  border-bottom: dotted 2px #ffaa76;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1; }
+
+.small_right {
+  margin-left: 25%;
+  width: 75%; }
+
+.sideImage {
+  width: 24%;
+  margin: 250px 0;
+  position: absolute; }
+
+.sideImageBottom {
+  width: 24%;
+  margin: 1100px 0 0 0;
+  position: absolute; }
+
+/*
+@media only screen and (max-width: 1090px) {
+    .logo {
+        float: none;
+        text-align: center;
+    }
+    h2 {
+        padding: 30px 0px 0px 0px;
+        margin: 0px 5px 5px 5px;
+    }
+    nav {
+        float: none;
+        padding: 10px;
+        margin: 0;
+        a {
+            margin: 2px;
+        }
+        //  text-align: center;
+    }
+    .intro {
+        padding: 0px;
+        h2 {
+            font-size: 1.1em;
+        }
+    }
+
+    .QuoteBanner {
+        height: 300px;
+
+        .space {
+            margin: 20px;
+        }
+    }
+}
+
+@media only screen and (min-width: 1815px) {
+    body {
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+
+//Small Screens
+@media only screen and (min-width: 500px) {
+    //Footer
+    .container {
+        display: flex;
+        flex-direction: column;
+        div {
+            width: 10%;
+        }
+    }
+}
+*/
