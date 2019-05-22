@@ -6,10 +6,7 @@ const PizzaMenu = () => {
         <div>
             <div className="center">
                 <h2 className="darkRed largeText">Pasta</h2>
-                <h3 className="lightRed">
-                    {' '}
-                    Pizzas are only available in personal sizes.
-                </h3>
+                <h3 className="lightRed">Our pasta is made fresh everyday.</h3>
             </div>
             <div className="container menu">
                 <div className="one">
@@ -18,6 +15,16 @@ const PizzaMenu = () => {
                             name="Cheese Pizza"
                             price="15.50"
                             description="This is a pizza with cheese."
+                        />
+                        <MenuItem
+                            name="Pepperoni Pizza"
+                            price="17.50"
+                            description="This is a pizza with cheese and pepperoni."
+                        />
+                        <MenuItem
+                            name="Pepperoni Pizza"
+                            price="17.50"
+                            description="This is a pizza with cheese and pepperoni."
                         />
                         <MenuItem
                             name="Pepperoni Pizza"
@@ -33,6 +40,16 @@ const PizzaMenu = () => {
                             name="Cheese Pizza"
                             price="15.50"
                             description="This is a pizza with cheese."
+                        />
+                        <MenuItem
+                            name="Pepperoni Pizza"
+                            price="17.50"
+                            description="This is a pizza with cheese and pepperoni."
+                        />
+                        <MenuItem
+                            name="Pepperoni Pizza"
+                            price="17.50"
+                            description="This is a pizza with cheese and pepperoni."
                         />
                         <MenuItem
                             name="Pepperoni Pizza"

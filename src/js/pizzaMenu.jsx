@@ -30,12 +30,12 @@ const PizzaMenu = () => {
                 <div className="one">
                     <ul>
                         <MenuItem
-                            name="Cheese Pizza"
+                            name="Veggie Pizza"
                             price="15.50"
                             description="This is a pizza with cheese."
                         />
                         <MenuItem
-                            name="Pepperoni Pizza"
+                            name="Three Meat Pizza"
                             price="17.50"
                             description="This is a pizza with cheese and pepperoni."
                         />
