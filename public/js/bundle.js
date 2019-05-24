@@ -29418,9 +29418,10 @@ var AboutUs = function AboutUs() {
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "one"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: "../images/FoodLine.jpeg",
+    src: "../images/PizzaAndWine.jpeg",
     alt: "",
-    width: "300px"
+    width: "300px",
+    "class": "squareImage"
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "two"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "About Us"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Since 1992, Cosimo\u2019s Italian Restaurant has been serving authentic Italian cuisine. We have been located in Midlothian since 1996.")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_common_quoteBanner__WEBPACK_IMPORTED_MODULE_2__["default"], {
