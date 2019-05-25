@@ -9,10 +9,10 @@ const AboutUs = () => {
                 <div className="container">
                     <div className="one">
                         <img
-                            src="../images/PizzaAndWine.jpeg"
+                            src="./images/PizzaAndWine.jpeg"
                             alt=""
                             width="300px"
-                            class="squareImage"
+                            className="squareImage"
                         />
                     </div>
                     <div className="two">

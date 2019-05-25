@@ -12,22 +12,22 @@ const PizzaMenu = () => {
                 <div className="one">
                     <ul>
                         <MenuItem
-                            name="Cheese Pizza"
+                            name="TOMATO"
                             price="15.50"
                             description="This is a pizza with cheese."
                         />
                         <MenuItem
-                            name="Pepperoni Pizza"
+                            name="MARINARA SAUCE"
                             price="17.50"
                             description="This is a pizza with cheese and pepperoni."
                         />
                         <MenuItem
-                            name="Pepperoni Pizza"
+                            name="MEAT SAUCE"
                             price="17.50"
                             description="This is a pizza with cheese and pepperoni."
                         />
                         <MenuItem
-                            name="Pepperoni Pizza"
+                            name="FETTUCINI ALFREDO"
                             price="17.50"
                             description="This is a pizza with cheese and pepperoni."
                         />
@@ -37,7 +37,7 @@ const PizzaMenu = () => {
                 <div className="one">
                     <ul>
                         <MenuItem
-                            name="Cheese Pizza"
+                            name="MEATBALLS"
                             price="15.50"
                             description="This is a pizza with cheese."
                         />
@@ -47,12 +47,12 @@ const PizzaMenu = () => {
                             description="This is a pizza with cheese and pepperoni."
                         />
                         <MenuItem
-                            name="Pepperoni Pizza"
+                            name="SPAGHETTI CARBONARA"
                             price="17.50"
                             description="This is a pizza with cheese and pepperoni."
                         />
                         <MenuItem
-                            name="Pepperoni Pizza"
+                            name="TORTELLINI ALFREDO"
                             price="17.50"
                             description="This is a pizza with cheese and pepperoni."
                         />

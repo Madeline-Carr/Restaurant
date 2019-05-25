@@ -4,17 +4,24 @@ const Contact = () => {
     return (
         <div>
             <ShortNav />
-
             <div className="wrapper">
-                <div className="flexTwo">
-                    <div>
-                        <p>An image will go here.</p>
+                <div className="container">
+                    <div className="one">
+                        <img
+                            src="./images/PizzaAndWine.jpeg"
+                            alt=""
+                            width="300px"
+                            className="squareImage"
+                        />
                     </div>
-                </div>
-                <div>
-                    <h1>Contact Us</h1>
-                    <h2 className="darkRed">Email:</h2>
-                    <h3 className="lightRed">Cosimo@CosimosRestaurant.com</h3>
+
+                    <div className="two">
+                        <h1>Contact Us</h1>
+                        <h2 className="darkRed">Email:</h2>
+                        <h3 className="lightRed">
+                            Cosimo@CosimosRestaurant.com
+                        </h3>
+                    </div>
                 </div>
             </div>
         </div>
