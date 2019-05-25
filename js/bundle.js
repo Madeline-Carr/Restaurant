@@ -28937,9 +28937,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _js_home__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(38);
 /* harmony import */ var _js_adbanner__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(43);
 /* harmony import */ var _js_menu__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(44);
-/* harmony import */ var _js_aboutUs__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(49);
-/* harmony import */ var _js_contact__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(50);
-/* harmony import */ var _js_footer__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(51);
+/* harmony import */ var _js_aboutUs__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(53);
+/* harmony import */ var _js_contact__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(54);
+/* harmony import */ var _js_footer__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(55);
 
 
 
@@ -29104,6 +29104,8 @@ var NavBar = function NavBar() {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(1);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(14);
+
 
 
 var BigButton = function BigButton(props) {
@@ -29206,6 +29208,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _shortNav__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(45);
 /* harmony import */ var _pizzaMenu__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(46);
 /* harmony import */ var _pastaMenu__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(48);
+/* harmony import */ var _soupMenu__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(49);
+/* harmony import */ var _appMenu__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(50);
+/* harmony import */ var _desserts__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(51);
+/* harmony import */ var _chickenMenu__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(52);
+
+
+
+
 
 
 
@@ -29217,7 +29227,7 @@ var Menu = function Menu() {
     alt: "",
     className: "sideImage"
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: "../images/halfPizza.png",
+    src: "./images/halfPizza.png",
     alt: "",
     className: "sideImageBottom"
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_shortNav__WEBPACK_IMPORTED_MODULE_1__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -29226,7 +29236,7 @@ var Menu = function Menu() {
     className: "small_right"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
     className: "center"
-  }, "Our Menu"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("hr", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_pizzaMenu__WEBPACK_IMPORTED_MODULE_2__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_pastaMenu__WEBPACK_IMPORTED_MODULE_3__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_pizzaMenu__WEBPACK_IMPORTED_MODULE_2__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_pastaMenu__WEBPACK_IMPORTED_MODULE_3__["default"], null))));
+  }, "Our Menu"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("hr", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_appMenu__WEBPACK_IMPORTED_MODULE_5__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_soupMenu__WEBPACK_IMPORTED_MODULE_4__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_pizzaMenu__WEBPACK_IMPORTED_MODULE_2__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_pastaMenu__WEBPACK_IMPORTED_MODULE_3__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_chickenMenu__WEBPACK_IMPORTED_MODULE_7__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_desserts__WEBPACK_IMPORTED_MODULE_6__["default"], null))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Menu);
@@ -29285,26 +29295,34 @@ var PizzaMenu = function PizzaMenu() {
     className: "darkRed largeText"
   }, "Pizza"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
     className: "lightRed"
-  }, ' ', "Pizzas are only available in personal sizes.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, "Pizzas are only available in personal sizes.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "container menu"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "one"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_menuItem__WEBPACK_IMPORTED_MODULE_1__["default"], {
-    name: "Cheese Pizza",
+    name: "CHEESE PIZZA",
     price: "15.50",
     description: "This is a pizza with cheese."
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_menuItem__WEBPACK_IMPORTED_MODULE_1__["default"], {
-    name: "Pepperoni Pizza",
+    name: "PEPPERONI PIZZA",
+    price: "17.50",
+    description: "This is a pizza with cheese and pepperoni."
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_menuItem__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    name: "WHITE PIZZA",
     price: "17.50",
     description: "This is a pizza with cheese and pepperoni."
   }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("hr", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "one"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_menuItem__WEBPACK_IMPORTED_MODULE_1__["default"], {
-    name: "Veggie Pizza",
+    name: "VEGGIE PIZZA",
     price: "15.50",
     description: "This is a pizza with cheese."
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_menuItem__WEBPACK_IMPORTED_MODULE_1__["default"], {
-    name: "Three Meat Pizza",
+    name: "FOUR MEAT PIZZA",
+    price: "17.50",
+    description: "This is a pizza with cheese and pepperoni."
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_menuItem__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    name: "MARGARITA",
     price: "17.50",
     description: "This is a pizza with cheese and pepperoni."
   })))));
@@ -29358,25 +29376,25 @@ var PizzaMenu = function PizzaMenu() {
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "one"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_menuItem__WEBPACK_IMPORTED_MODULE_1__["default"], {
-    name: "Cheese Pizza",
+    name: "TOMATO",
     price: "15.50",
     description: "This is a pizza with cheese."
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_menuItem__WEBPACK_IMPORTED_MODULE_1__["default"], {
-    name: "Pepperoni Pizza",
+    name: "MARINARA SAUCE",
     price: "17.50",
     description: "This is a pizza with cheese and pepperoni."
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_menuItem__WEBPACK_IMPORTED_MODULE_1__["default"], {
-    name: "Pepperoni Pizza",
+    name: "MEAT SAUCE",
     price: "17.50",
     description: "This is a pizza with cheese and pepperoni."
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_menuItem__WEBPACK_IMPORTED_MODULE_1__["default"], {
-    name: "Pepperoni Pizza",
+    name: "FETTUCINI ALFREDO",
     price: "17.50",
     description: "This is a pizza with cheese and pepperoni."
   }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("hr", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "one"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_menuItem__WEBPACK_IMPORTED_MODULE_1__["default"], {
-    name: "Cheese Pizza",
+    name: "MEATBALLS",
     price: "15.50",
     description: "This is a pizza with cheese."
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_menuItem__WEBPACK_IMPORTED_MODULE_1__["default"], {
@@ -29384,11 +29402,11 @@ var PizzaMenu = function PizzaMenu() {
     price: "17.50",
     description: "This is a pizza with cheese and pepperoni."
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_menuItem__WEBPACK_IMPORTED_MODULE_1__["default"], {
-    name: "Pepperoni Pizza",
+    name: "SPAGHETTI CARBONARA",
     price: "17.50",
     description: "This is a pizza with cheese and pepperoni."
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_menuItem__WEBPACK_IMPORTED_MODULE_1__["default"], {
-    name: "Pepperoni Pizza",
+    name: "TORTELLINI ALFREDO",
     price: "17.50",
     description: "This is a pizza with cheese and pepperoni."
   })))));
@@ -29398,6 +29416,194 @@ var PizzaMenu = function PizzaMenu() {
 
 /***/ }),
 /* 49 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(1);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _menuItem__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(47);
+
+
+
+var SoupMenu = function SoupMenu() {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "center"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+    className: "darkRed largeText"
+  }, "Soup & Salad"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+    className: "lightRed"
+  }, "Pizzas are only available in personal sizes.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "container menu"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "one"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_menuItem__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    name: "HOUSE SALAD",
+    price: "10.50",
+    description: "This is a pizza with cheese."
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_menuItem__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    name: "CEASAR SALAD",
+    price: "11.50",
+    description: "This is a pizza with cheese and pepperoni."
+  }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("hr", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "one"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_menuItem__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    name: "GREEK SALAD",
+    price: "12.50",
+    description: "This is a pizza with cheese."
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_menuItem__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    name: "SOUP OF THE DAY",
+    price: "10.50",
+    description: "This is a pizza with cheese and pepperoni."
+  })))));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (SoupMenu);
+
+/***/ }),
+/* 50 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(1);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _menuItem__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(47);
+
+
+
+var AppMenu = function AppMenu() {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "center"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+    className: "darkRed largeText"
+  }, "Appetizers"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+    className: "lightRed"
+  }, "Pizzas are only available in personal sizes.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "container menu"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "one"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_menuItem__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    name: "BREADSTICKS (6)",
+    price: "12.50",
+    description: "This is a pizza with cheese."
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_menuItem__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    name: "GARLIC BREAD",
+    price: "10.50",
+    description: "This is a pizza with cheese."
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_menuItem__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    name: "GARLIC BREAD W/ CHEESE",
+    price: "11.50",
+    description: "This is a pizza with cheese and pepperoni."
+  }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("hr", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "one"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_menuItem__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    name: "MOZZARELLA STICKS (6)",
+    price: "12.50",
+    description: "This is a pizza with cheese."
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_menuItem__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    name: "FRIED CALAMARI",
+    price: "10.50",
+    description: "This is a pizza with cheese and pepperoni."
+  })))));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (AppMenu);
+
+/***/ }),
+/* 51 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(1);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _menuItem__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(47);
+
+
+
+var DessertMenu = function DessertMenu() {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "center"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+    className: "darkRed largeText"
+  }, "Desserts"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+    className: "lightRed"
+  }, "Pizzas are only available in personal sizes.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "container menu"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "one"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_menuItem__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    name: "TIRAMISU",
+    price: "12.50",
+    description: "This is a pizza with cheese."
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_menuItem__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    name: "CHOCOLATE CAKE",
+    price: "10.50",
+    description: "An icecream scoop can be added for an additional dollar."
+  }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("hr", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "one"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_menuItem__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    name: "CANNOLI",
+    price: "12.50",
+    description: "This is a pizza with cheese."
+  })))));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (DessertMenu);
+
+/***/ }),
+/* 52 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(1);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _menuItem__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(47);
+
+
+
+var ChickenMenu = function ChickenMenu() {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "center"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+    className: "darkRed largeText"
+  }, "Chicken & Veal"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+    className: "lightRed"
+  }, "Served with side pasta & salad")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "container menu"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "one"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_menuItem__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    name: "CHICKEN PARMIGIANA",
+    price: "15.50",
+    description: "This is a pizza with cheese."
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_menuItem__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    name: "CHICKEN PICCATA",
+    price: "17.50",
+    description: "This is a pizza with cheese and pepperoni."
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_menuItem__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    name: "VEAL FLORENTINE",
+    price: "17.50",
+    description: "This is a pizza with cheese and pepperoni."
+  }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("hr", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "one"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_menuItem__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    name: "CHICKEN FRANCESE",
+    price: "15.50",
+    description: "This is a pizza with cheese."
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_menuItem__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    name: "VEAL PARMIGIANA",
+    price: "17.50",
+    description: "This is a pizza with cheese and pepperoni."
+  })))));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (ChickenMenu);
+
+/***/ }),
+/* 53 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -29418,9 +29624,10 @@ var AboutUs = function AboutUs() {
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "one"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: "../images/FoodLine.jpeg",
+    src: "../images/PizzaAndWine.jpeg",
     alt: "",
-    width: "300px"
+    width: "300px",
+    className: "squareImage"
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "two"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "About Us"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Since 1992, Cosimo\u2019s Italian Restaurant has been serving authentic Italian cuisine. We have been located in Midlothian since 1996.")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_common_quoteBanner__WEBPACK_IMPORTED_MODULE_2__["default"], {
@@ -29432,7 +29639,7 @@ var AboutUs = function AboutUs() {
 /* harmony default export */ __webpack_exports__["default"] = (AboutUs);
 
 /***/ }),
-/* 50 */
+/* 54 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -29447,18 +29654,27 @@ var Contact = function Contact() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_shortNav__WEBPACK_IMPORTED_MODULE_1__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "wrapper"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "flexTwo"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "An image will go here."))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "Contact Us"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+    className: "container"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "one"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: "../images/PizzaAndWine.jpeg",
+    alt: "",
+    width: "300px",
+    className: "squareImage"
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "two"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "Contact Us"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
     className: "darkRed"
   }, "Email:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
     className: "lightRed"
-  }, "Cosimo@CosimosRestaurant.com"))));
+  }, "Cosimo@CosimosRestaurant.com")))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Contact);
 
 /***/ }),
-/* 51 */
+/* 55 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
