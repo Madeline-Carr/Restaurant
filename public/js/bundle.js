@@ -29222,7 +29222,9 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var Menu = function Menu() {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "images"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     src: "./images/halfPizza.png",
     alt: "",
     className: "sideImage"
@@ -29230,7 +29232,11 @@ var Menu = function Menu() {
     src: "./images/halfPizza.png",
     alt: "",
     className: "sideImageBottom"
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_shortNav__WEBPACK_IMPORTED_MODULE_1__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: "./images/halfPizza.png",
+    alt: "",
+    className: "sideImageThird"
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_shortNav__WEBPACK_IMPORTED_MODULE_1__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "wrapper "
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "small_right"
@@ -29689,6 +29695,8 @@ __webpack_require__.r(__webpack_exports__);
 
 var Footer = function Footer() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("footer", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "brownBackground"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "wrapper"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "container"
@@ -29706,7 +29714,7 @@ var Footer = function Footer() {
     className: "darkRed"
   }, "Contact Us"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("hr", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Phone: (804) 608-9288", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "E-mail: Cosimo@CosimosRestaurant.com"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("hr", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: "copyright"
-  }, "Copyright \xA9 2019 Madeline Carr \u2022 Richmond based Web Developer")));
+  }, "Copyright \xA9 2019 Madeline Carr \u2022 Richmond based Web Developer"))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Footer);

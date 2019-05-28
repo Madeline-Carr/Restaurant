@@ -10,12 +10,23 @@ import ChickenMenu from './chickenMenu';
 const Menu = () => {
     return (
         <div>
-            <img src="./images/halfPizza.png" alt="" className="sideImage" />
-            <img
-                src="./images/halfPizza.png"
-                alt=""
-                className="sideImageBottom"
-            />
+            <div className="images">
+                <img
+                    src="./images/halfPizza.png"
+                    alt=""
+                    className="sideImage"
+                />
+                <img
+                    src="./images/halfPizza.png"
+                    alt=""
+                    className="sideImageBottom"
+                />
+                <img
+                    src="./images/halfPizza.png"
+                    alt=""
+                    className="sideImageThird"
+                />
+            </div>
 
             <ShortNav />
             <div className="wrapper ">

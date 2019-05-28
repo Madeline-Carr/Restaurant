@@ -21,6 +21,10 @@ const AboutUs = () => {
                             To make a reservation please call us at (804)
                             608-9288.
                         </p>
+
+                        <form action="">
+                            <h2 class="heading">Create a Reservation</h2>
+                        </form>
                     </div>
                 </div>
             </div>
