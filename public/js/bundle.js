@@ -29668,7 +29668,11 @@ var Contact = function Contact() {
     className: "darkRed"
   }, "Email:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
     className: "lightRed"
-  }, "Cosimo@CosimosRestaurant.com")))));
+  }, "Cosimo@CosimosRestaurant.com"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+    className: "darkRed"
+  }, "Phone Number:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+    className: "lightRed"
+  }, "(804) 608-9288 ")))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Contact);

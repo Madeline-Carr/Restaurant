@@ -21,6 +21,8 @@ const Contact = () => {
                         <h3 className="lightRed">
                             Cosimo@CosimosRestaurant.com
                         </h3>
+                        <h2 className="darkRed">Phone Number:</h2>
+                        <h3 className="lightRed">(804) 608-9288 </h3>
                     </div>
                 </div>
             </div>
