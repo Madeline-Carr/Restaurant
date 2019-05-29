@@ -29547,9 +29547,7 @@ var DessertMenu = function DessertMenu() {
     name: "CHOCOLATE CAKE",
     price: "10.50",
     description: "An icecream scoop can be added for an additional dollar.An icecream scoop can be added for an additional dollar. "
-  }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("hr", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "one"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_menuItem__WEBPACK_IMPORTED_MODULE_1__["default"], {
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_menuItem__WEBPACK_IMPORTED_MODULE_1__["default"], {
     name: "CANNOLI",
     price: "12.50",
     description: "This is a pizza with cheese."

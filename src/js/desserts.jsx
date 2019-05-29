@@ -23,11 +23,6 @@ const DessertMenu = () => {
                             price="10.50"
                             description="An icecream scoop can be added for an additional dollar.An icecream scoop can be added for an additional dollar. "
                         />
-                    </ul>
-                </div>
-                <hr />
-                <div className="one">
-                    <ul>
                         <MenuItem
                             name="CANNOLI"
                             price="12.50"
