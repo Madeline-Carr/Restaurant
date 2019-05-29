@@ -39,7 +39,7 @@ const Footer = () => {
                         </div>
                     </div>
                     <hr />
-                    <p className="copyright">
+                    <p className="center ">
                         Copyright © 2019 Madeline Carr • Richmond based Web
                         Developer
                     </p>

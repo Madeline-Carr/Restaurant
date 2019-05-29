@@ -104,9 +104,6 @@ footer {
   z-index: 4;
   margin: 20px 0 20px 0; }
 
-.copyright {
-  text-align: center; }
-
 .container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -114,13 +111,19 @@ footer {
   .container .one {
     -webkit-box-flex: 1;
         -ms-flex-positive: 1;
-            flex-grow: 1; }
+            flex-grow: 1;
+    -ms-flex-preferred-size: 0;
+        flex-basis: 0; }
   .container .two {
     -webkit-box-flex: 2;
         -ms-flex-positive: 2;
-            flex-grow: 2; }
+            flex-grow: 2;
+    -ms-flex-preferred-size: 0;
+        flex-basis: 0; }
   .container .middle {
-    margin: 0 20px; }
+    margin: 0 20px;
+    -ms-flex-preferred-size: 0;
+        flex-basis: 0; }
 
 .space-Between-Container {
   display: -webkit-box;

@@ -93,21 +93,21 @@ footer {
     margin: 20px 0 20px 0;
 }
 
-.copyright {
-    text-align: center;
-}
 //FlexBox
 .container {
     display: flex;
 
     .one {
         flex-grow: 1;
+        flex-basis: 0;
     }
     .two {
         flex-grow: 2;
+        flex-basis: 0;
     }
     .middle {
         margin: 0 20px;
+        flex-basis: 0;
     }
 }
 .space-Between-Container {
