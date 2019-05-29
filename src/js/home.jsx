@@ -12,7 +12,7 @@ const Home = () => {
                 quote="Here at Cosimo’s we focus on providing you with an authentic
                     Italian cuisine experience."
             />
-            <BigButton message="View our Menu" />
+            <BigButton message="View our Menu" link="/menu" />
         </div>
     );
 };

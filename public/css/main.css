@@ -139,6 +139,10 @@ footer {
 .space {
   margin: 30px;
   padding: 10px 50px; }
+  .space:hover {
+    border-color: #ffaa76; }
+    .space:hover .link {
+      color: #fc6913; }
 
 .largeText {
   font-size: 2em; }

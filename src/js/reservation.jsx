@@ -1,7 +1,7 @@
 import React from 'react';
 import ShortNav from './shortNav';
 import QuoteBanner from './common/quoteBanner';
-const AboutUs = () => {
+const Reservation = () => {
     return (
         <div>
             <ShortNav />
@@ -36,4 +36,4 @@ const AboutUs = () => {
     );
 };
 
-export default AboutUs;
+export default Reservation;

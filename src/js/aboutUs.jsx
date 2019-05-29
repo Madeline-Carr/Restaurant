@@ -1,6 +1,6 @@
 import React from 'react';
 import ShortNav from './shortNav';
-import QuoteBanner from './common/quoteBanner';
+import BigButton from './bigButton';
 const AboutUs = () => {
     return (
         <div>
@@ -18,17 +18,17 @@ const AboutUs = () => {
                     <div className="two">
                         <h1>About Us</h1>
                         <p>
-                            Since 1992, Cosimo’s Italian Restaurant has been
-                            serving authentic Italian cuisine. We have been
-                            located in Midlothian since 1996.
+                            For over twenty years, Cosimo’s Italian Restaurant
+                            has been serving authentic Italian cuisine. We have
+                            been located in Midlothian since 1996.
                         </p>
+                        <BigButton
+                            message="Make a Reservation"
+                            link="/reservation"
+                        />
                     </div>
                 </div>
             </div>
-            <QuoteBanner
-                header="Our Motto"
-                quote="Here at Cosimo’s our food is made fresh everyday."
-            />
         </div>
     );
 };

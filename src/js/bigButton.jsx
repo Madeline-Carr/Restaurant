@@ -1,10 +1,14 @@
 import React from 'react';
-import Link from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 const BigButton = props => {
     return (
         <div className="center">
-            <button className="space">{props.message}</button>
+            <button className="space">
+                <Link to={props.link} className="link">
+                    {props.message}
+                </Link>
+            </button>
         </div>
     );
 };
