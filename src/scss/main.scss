@@ -123,6 +123,12 @@ footer {
 .space {
     margin: 30px;
     padding: 10px 50px;
+    &:hover {
+        border-color: $light_red;
+        .link {
+            color: $dark_red;
+        }
+    }
 }
 
 .largeText {
@@ -202,4 +208,5 @@ ul {
 .images {
     z-index: 3;
 }
+
 @import 'mediaQueries';
