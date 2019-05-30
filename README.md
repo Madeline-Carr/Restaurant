@@ -10,4 +10,4 @@ I started of by using my starter kit which can be found in my projects. I used r
 
 ## Design
 
-I used Adobe XD to design this website. The goal was to have a photo oriented design. The hero image on the home page is an example of the photo working with the text as a design element and not just placed into the code. The photos came from pixabay.com and pexels.com.
+I used Adobe XD and Illustrator to design this website. The goal was to have a photo oriented design. The hero image on the home page is an example of the photo working with the text as a design element and not just placed into the code. The photos came from pixabay.com and pexels.com.
