@@ -19,8 +19,9 @@ const AboutUs = () => {
                         <h1>About Us</h1>
                         <p>
                             For over twenty years, Cosimo’s Italian Restaurant
-                            has been serving authentic Italian cuisine. We have
-                            been located in Midlothian since 1996.
+                            has been serving authentic Italian cuisine. Our
+                            first restaurant opened in Nuoro, Italy during 1996.
+                            We have been located in Midlothian since 1998.
                         </p>
                         <BigButton
                             message="Make a Reservation"
