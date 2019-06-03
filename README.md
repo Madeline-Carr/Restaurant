@@ -3,6 +3,7 @@
 ## What is this?
 
 This website is a test of my design and web development skills. The goal is to understand my work flow better and to see what problems might arise when I am working based on a specific design.
+I used my own starter kit for the first time and made modifications to it based on what I learned. I also worked on my responsive design skills.
 
 ## Tools & Technology
 
