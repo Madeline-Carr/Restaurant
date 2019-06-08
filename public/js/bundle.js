@@ -29238,7 +29238,7 @@ var Reservation = function Reservation() {
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "Reservations"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "To make a reservation please call us at (804) 608-9288."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("form", {
     action: ""
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-    "class": "heading"
+    className: "heading"
   }, "Create a Reservation"))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_common_quoteBanner__WEBPACK_IMPORTED_MODULE_2__["default"], {
     header: "Our Motto",
     quote: "Here at Cosimo\u2019s our food is made fresh everyday."

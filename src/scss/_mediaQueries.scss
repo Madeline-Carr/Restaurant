@@ -41,6 +41,19 @@
     }
 }
 
+//Medium-small Screens
+@media only screen and (min-width: 400px) {
+    //Footer
+    h1 {
+        color: red;
+    }
+    .container {
+        display: block;
+        div {
+            width: 100%;
+        }
+    }
+}
 //Small Screens
 @media only screen and (min-width: 500px) {
     //Footer
