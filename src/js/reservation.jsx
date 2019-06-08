@@ -23,7 +23,7 @@ const Reservation = () => {
                         </p>
 
                         <form action="">
-                            <h2 class="heading">Create a Reservation</h2>
+                            <h2 className="heading">Create a Reservation</h2>
                         </form>
                     </div>
                 </div>
