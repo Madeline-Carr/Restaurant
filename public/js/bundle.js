@@ -28990,8 +28990,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _common_header__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(39);
 /* harmony import */ var _common_quoteBanner__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(42);
-/* harmony import */ var _bigButton__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(41);
-
 
 
 
@@ -29000,9 +28998,6 @@ var Home = function Home() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_common_header__WEBPACK_IMPORTED_MODULE_1__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_common_quoteBanner__WEBPACK_IMPORTED_MODULE_2__["default"], {
     header: "An Experience",
     quote: "Here at Cosimo\u2019s we focus on providing you with an authentic Italian cuisine experience."
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_bigButton__WEBPACK_IMPORTED_MODULE_3__["default"], {
-    message: "View our Menu",
-    link: "/menu"
   }));
 };
 
@@ -29059,8 +29054,8 @@ function (_Component) {
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_navBar__WEBPACK_IMPORTED_MODULE_1__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "intro"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Welcome to Cosimo\u2019s Italian Restaurant"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_bigButton__WEBPACK_IMPORTED_MODULE_2__["default"], {
-        message: "Make a Reservation",
-        link: "/reservation"
+        message: "View our Menu",
+        link: "/menu"
       }))));
     }
   }]);

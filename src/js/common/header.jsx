@@ -10,10 +10,8 @@ class Header extends Component {
                     <NavBar />
                     <div className="intro">
                         <h2>Welcome to Cosimo’s Italian Restaurant</h2>
-                        <BigButton
-                            message="Make a Reservation"
-                            link="/reservation"
-                        />
+
+                        <BigButton message="View our Menu" link="/menu" />
                     </div>
                 </div>
             </header>
