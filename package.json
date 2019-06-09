@@ -42,7 +42,7 @@
     "gulp-sourcemaps": "^2.6.5",
     "lodash": "^4.17.11",
     "minimatch": "^3.0.4",
-    "querystringify": "^2.1.1",
+    "querystringify": ">=2.0.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-router-dom": "^5.0.0",
