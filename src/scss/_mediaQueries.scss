@@ -45,23 +45,30 @@
 @media only screen and (min-width: 400px) {
     //Footer
     h1 {
-        color: red;
-    }
-    .container {
-        display: block;
-        div {
-            width: 100%;
-        }
+        color: $dark_red;
     }
 }
 //Small Screens
-@media only screen and (min-width: 500px) {
+@media only screen and (max-width: 500px) {
     //Footer
     .container {
         display: flex;
         flex-direction: column;
-        div {
-            width: 10%;
+        text-align: center;
+
+        .middle {
+            margin: 0px;
+            flex-basis: 0;
         }
+        div {
+            width: 100%;
+        }
+    }
+
+    .space-Between-Container {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        text-align: center;
     }
 }
