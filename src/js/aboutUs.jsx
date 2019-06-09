@@ -28,10 +28,7 @@ const AboutUs = () => {
                             people. We aim to create a terrific dining experince
                             that will not be easily forgotton.
                         </p>
-                        <BigButton
-                            message="Make a Reservation"
-                            link="/reservation"
-                        />
+                        <BigButton message="View our Menu" link="/menu" />
                     </div>
                 </div>
             </div>
