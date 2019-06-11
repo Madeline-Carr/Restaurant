@@ -248,7 +248,7 @@ ul {
   h1 {
     color: #fc6913; } }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 690px) {
   .container {
     display: -webkit-box;
     display: -ms-flexbox;
