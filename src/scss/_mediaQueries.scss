@@ -1,5 +1,7 @@
 //Media Queries
 
+//Medium-small Screens
+
 @media only screen and (max-width: 1090px) {
     .logo {
         float: none;
@@ -41,13 +43,6 @@
     }
 }
 
-//Medium-small Screens
-@media only screen and (min-width: 400px) {
-    //Footer
-    h1 {
-        color: $dark_red;
-    }
-}
 //Small Screens
 @media only screen and (max-width: 690px) {
     //Footer

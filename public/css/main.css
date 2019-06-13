@@ -244,10 +244,6 @@ ul {
     width: 80%;
     margin: 0 auto; } }
 
-@media only screen and (min-width: 400px) {
-  h1 {
-    color: #fc6913; } }
-
 @media only screen and (max-width: 690px) {
   .container {
     display: -webkit-box;
