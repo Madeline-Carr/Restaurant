@@ -24,7 +24,7 @@ const Footer = () => {
                             <p>
                                 Address: <br />
                                 1257 Old Oak Rd. <br />
-                                North Midlothian <br />
+                                Midlothian <br />
                                 VA, 23113 <br />
                             </p>
                         </div>
