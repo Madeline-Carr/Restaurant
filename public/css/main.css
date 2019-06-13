@@ -277,4 +277,7 @@ ul {
             flex-direction: column;
     text-align: center; }
   .backgroundSmall {
-    height: 170px; } }
+    height: 170px; }
+  .small_right {
+    margin-left: 0%;
+    width: 100%; } }
