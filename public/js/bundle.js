@@ -29449,7 +29449,7 @@ var PizzaMenu = function PizzaMenu() {
     price: "15.50",
     description: "This is a pizza with cheese."
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_menuItem__WEBPACK_IMPORTED_MODULE_1__["default"], {
-    name: "Pepperoni Pizza",
+    name: "PEPPERONI PIZZA",
     price: "17.50",
     description: "This is a pizza with cheese and pepperoni."
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_menuItem__WEBPACK_IMPORTED_MODULE_1__["default"], {

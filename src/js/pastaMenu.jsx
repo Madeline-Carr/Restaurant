@@ -42,7 +42,7 @@ const PizzaMenu = () => {
                             description="This is a pizza with cheese."
                         />
                         <MenuItem
-                            name="Pepperoni Pizza"
+                            name="PEPPERONI PIZZA"
                             price="17.50"
                             description="This is a pizza with cheese and pepperoni."
                         />
