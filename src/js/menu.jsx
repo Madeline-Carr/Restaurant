@@ -14,17 +14,17 @@ const Menu = () => {
                 <img
                     src="./images/halfPizza.png"
                     alt=""
-                    className="sideImage"
+                    className="side sideImage"
                 />
                 <img
                     src="./images/halfPizza.png"
                     alt=""
-                    className="sideImageBottom"
+                    className="side sideImageBottom"
                 />
                 <img
                     src="./images/halfPizza.png"
                     alt=""
-                    className="sideImageThird"
+                    className="side sideImageThird"
                 />
             </div>
 

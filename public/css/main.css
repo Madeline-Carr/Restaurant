@@ -277,9 +277,7 @@ ul {
   .small_right {
     margin-left: 0%;
     width: 100%; }
-  .sideImage {
+  .side {
     display: none; }
-  .sideImageBottom {
-    display: none; }
-  .sideImageThird {
+  .images {
     display: none; } }

@@ -29307,15 +29307,15 @@ var Menu = function Menu() {
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     src: "./images/halfPizza.png",
     alt: "",
-    className: "sideImage"
+    className: "side sideImage"
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     src: "./images/halfPizza.png",
     alt: "",
-    className: "sideImageBottom"
+    className: "side sideImageBottom"
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     src: "./images/halfPizza.png",
     alt: "",
-    className: "sideImageThird"
+    className: "side sideImageThird"
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_shortNav__WEBPACK_IMPORTED_MODULE_1__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "wrapper "
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
