@@ -10,11 +10,15 @@ const Footer = () => {
                             <h3 className="darkRed">Hours of Operation</h3>
                             <hr />
                             <p>
-                                Mon-Fri: 9 a.m. - 11 p.m.
+                                <span className="lightRed">Mon-Fri:</span>
                                 <br />
-                                Sat: 12 p.m - 10 p.m.
+                                9 a.m. - 11 p.m.
                                 <br />
-                                Closed Sunday
+                                <span className="lightRed">Sat:</span>
+                                <br />
+                                12 p.m - 10 p.m.
+                                <br />
+                                <span className="lightRed">Closed Sunday</span>
                             </p>
                         </div>
 
@@ -22,7 +26,8 @@ const Footer = () => {
                             <h3 className="darkRed">Location</h3>
                             <hr />
                             <p>
-                                Address: <br />
+                                <span className="lightRed">Address:</span>
+                                <br />
                                 1257 Old Oak Rd. <br />
                                 Midlothian <br />
                                 VA, 23113 <br />
@@ -32,9 +37,12 @@ const Footer = () => {
                             <h3 className="darkRed">Contact Us</h3>
                             <hr />
                             <p>
-                                Phone: (804) 608-9288
+                                <span className="lightRed">Phone:</span>
                                 <br />
-                                E-mail: Cosimo@CosimosRestaurant.com
+                                (804) 608-9288
+                                <br />
+                                <span className="lightRed">E-mail:</span>
+                                <br /> Cosimo@CosimosRestaurant.com
                             </p>
                         </div>
                     </div>

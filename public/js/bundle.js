@@ -29749,15 +29749,27 @@ var Footer = function Footer() {
     className: "one"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
     className: "darkRed"
-  }, "Hours of Operation"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("hr", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Mon-Fri: 9 a.m. - 11 p.m.", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "Sat: 12 p.m - 10 p.m.", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "Closed Sunday")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, "Hours of Operation"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("hr", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "lightRed"
+  }, "Mon-Fri:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "9 a.m. - 11 p.m.", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "lightRed"
+  }, "Sat:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "12 p.m - 10 p.m.", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "lightRed"
+  }, "Closed Sunday"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "one middle"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
     className: "darkRed"
-  }, "Location"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("hr", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Address: ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "1257 Old Oak Rd. ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "Midlothian ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "VA, 23113 ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, "Location"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("hr", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "lightRed"
+  }, "Address:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "1257 Old Oak Rd. ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "Midlothian ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "VA, 23113 ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "one"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
     className: "darkRed"
-  }, "Contact Us"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("hr", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Phone: (804) 608-9288", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "E-mail: Cosimo@CosimosRestaurant.com"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("hr", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  }, "Contact Us"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("hr", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "lightRed"
+  }, "Phone:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "(804) 608-9288", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "lightRed"
+  }, "E-mail:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), " Cosimo@CosimosRestaurant.com"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("hr", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: "center "
   }, "Copyright \xA9 2019 Madeline Carr \u2022 Richmond based Web Developer"))));
 };
