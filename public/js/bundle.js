@@ -29671,7 +29671,7 @@ var AboutUs = function AboutUs() {
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "one"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: "./images/PizzaAndWine.jpeg",
+    src: "./images/Dough.jpg",
     alt: "",
     width: "300px",
     className: "squareImage"
