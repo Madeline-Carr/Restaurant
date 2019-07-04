@@ -29112,13 +29112,11 @@ __webpack_require__.r(__webpack_exports__);
 
 var BigButton = function BigButton(props) {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "center"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
-    className: "space"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
-    to: props.link,
-    className: "link"
-  }, props.message)));
+    className: "center "
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: '#' + props.link,
+    className: "button border"
+  }, props.message));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (BigButton);

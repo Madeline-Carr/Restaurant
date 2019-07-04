@@ -123,6 +123,7 @@ footer {
 .space {
     margin: 30px;
     padding: 10px 50px;
+    border: 5px, solid, red;
     &:hover {
         border-color: $light_red;
         .link {
