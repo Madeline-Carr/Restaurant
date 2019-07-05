@@ -28990,8 +28990,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _common_header__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(39);
 /* harmony import */ var _common_quoteBanner__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(42);
-/* harmony import */ var _bigButton__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(41);
-
 
 
 
@@ -29000,9 +28998,6 @@ var Home = function Home() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_common_header__WEBPACK_IMPORTED_MODULE_1__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_common_quoteBanner__WEBPACK_IMPORTED_MODULE_2__["default"], {
     header: "An Experience",
     quote: "Here at Cosimo\u2019s we focus on providing you with an authentic Italian cuisine experience."
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_bigButton__WEBPACK_IMPORTED_MODULE_3__["default"], {
-    message: "View our Menu",
-    link: "/menu"
   }));
 };
 
@@ -29059,8 +29054,8 @@ function (_Component) {
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_navBar__WEBPACK_IMPORTED_MODULE_1__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "intro"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Welcome to Cosimo\u2019s Italian Restaurant"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_bigButton__WEBPACK_IMPORTED_MODULE_2__["default"], {
-        message: "Make a Reservation",
-        link: "/reservation"
+        message: "View our Menu",
+        link: "/menu"
       }))));
     }
   }]);
@@ -29117,13 +29112,11 @@ __webpack_require__.r(__webpack_exports__);
 
 var BigButton = function BigButton(props) {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "center"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
-    className: "space"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
-    to: props.link,
-    className: "link"
-  }, props.message)));
+    className: "center "
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: '#' + props.link,
+    className: "button border"
+  }, props.message));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (BigButton);
@@ -29238,7 +29231,7 @@ var Reservation = function Reservation() {
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "Reservations"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "To make a reservation please call us at (804) 608-9288."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("form", {
     action: ""
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-    "class": "heading"
+    className: "heading"
   }, "Create a Reservation"))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_common_quoteBanner__WEBPACK_IMPORTED_MODULE_2__["default"], {
     header: "Our Motto",
     quote: "Here at Cosimo\u2019s our food is made fresh everyday."
@@ -29312,15 +29305,15 @@ var Menu = function Menu() {
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     src: "./images/halfPizza.png",
     alt: "",
-    className: "sideImage"
+    className: "side sideImage"
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     src: "./images/halfPizza.png",
     alt: "",
-    className: "sideImageBottom"
+    className: "side sideImageBottom"
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     src: "./images/halfPizza.png",
     alt: "",
-    className: "sideImageThird"
+    className: "side sideImageThird"
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_shortNav__WEBPACK_IMPORTED_MODULE_1__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "wrapper "
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -29454,7 +29447,7 @@ var PizzaMenu = function PizzaMenu() {
     price: "15.50",
     description: "This is a pizza with cheese."
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_menuItem__WEBPACK_IMPORTED_MODULE_1__["default"], {
-    name: "Pepperoni Pizza",
+    name: "PEPPERONI PIZZA",
     price: "17.50",
     description: "This is a pizza with cheese and pepperoni."
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_menuItem__WEBPACK_IMPORTED_MODULE_1__["default"], {
@@ -29678,15 +29671,17 @@ var AboutUs = function AboutUs() {
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "one"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: "./images/PizzaAndWine.jpeg",
+    src: "./images/Dough.jpg",
     alt: "",
     width: "300px",
     className: "squareImage"
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "two"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "About Us"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "For over twenty years, Cosimo\u2019s Italian Restaurant has been serving authentic Italian cuisine. We have been located in Midlothian since 1996."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_bigButton__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    message: "Make a Reservation",
-    link: "/reservation"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+    className: "lightRed"
+  }, "About Us"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "For over twenty years, Cosimo\u2019s Italian Restaurant has been serving authentic Italian cuisine. Our first restaurant opened in Nuoro, Italy during 1996. We have been located in Midlothian since 1998."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Our mission is to create great food and serve great people. We aim to create a terrific dining experince that will not be easily forgotton."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_bigButton__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    message: "View our Menu",
+    link: "/menu"
   })))));
 };
 
@@ -29752,15 +29747,27 @@ var Footer = function Footer() {
     className: "one"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
     className: "darkRed"
-  }, "Hours of Operation"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("hr", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Mon-Fri: 9 a.m. - 11 p.m.", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "Sat: 12 p.m - 10 p.m.", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "Closed Sunday")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, "Hours of Operation"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("hr", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "lightRed"
+  }, "Mon-Fri:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "9 a.m. - 11 p.m.", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "lightRed"
+  }, "Sat:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "12 p.m - 10 p.m.", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "lightRed"
+  }, "Closed Sunday"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "one middle"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
     className: "darkRed"
-  }, "Location"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("hr", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Address: ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "1257 Old Oak Rd. ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "North Midlothian ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "VA, 23113 ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, "Location"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("hr", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "lightRed"
+  }, "Address:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "1257 Old Oak Rd. ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "Midlothian ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "VA, 23113 ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "one"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
     className: "darkRed"
-  }, "Contact Us"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("hr", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Phone: (804) 608-9288", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "E-mail: Cosimo@CosimosRestaurant.com"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("hr", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  }, "Contact Us"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("hr", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "lightRed"
+  }, "Phone:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "(804) 608-9288", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "lightRed"
+  }, "E-mail:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), " Cosimo@CosimosRestaurant.com"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("hr", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: "center "
   }, "Copyright \xA9 2019 Madeline Carr \u2022 Richmond based Web Developer"))));
 };
