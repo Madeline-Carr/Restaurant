@@ -53,6 +53,11 @@ nav {
     }
 }
 
+.button {
+    border: 2px solid $dark_red;
+    margin: 35px 0px;
+}
+
 // AdBanner
 .AdBanner {
     color: white;
@@ -123,7 +128,6 @@ footer {
 .space {
     margin: 30px;
     padding: 10px 50px;
-    border: 5px, solid, red;
     &:hover {
         border-color: $light_red;
         .link {
