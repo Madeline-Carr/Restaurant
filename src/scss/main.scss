@@ -41,11 +41,10 @@ nav {
     margin-top: 42px;
     a {
         font-size: 20px;
-        padding: 10px 10px;
         margin-left: 40px;
         &:hover {
             background-color: white;
-            color: $dark_gray;
+            color: $dark;
         }
         &:active {
             color: $dark_red;
@@ -129,7 +128,6 @@ footer {
     margin: 30px;
     padding: 10px 50px;
     &:hover {
-        border-color: $light_red;
         .link {
             color: $dark_red;
         }
