@@ -53,8 +53,11 @@ nav {
 }
 
 .button {
-    border: 2px solid $dark_red;
+    border: 2px solid $light_red;
     margin: 35px 0px;
+    &:hover {
+        border-color: $dark_red;
+    }
 }
 
 // AdBanner
@@ -129,7 +132,7 @@ footer {
     padding: 10px 50px;
     &:hover {
         .link {
-            color: $dark_red;
+            color: $light_red;
         }
     }
 }

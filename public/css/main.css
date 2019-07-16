@@ -78,8 +78,10 @@ nav {
       color: #fc5d13; }
 
 .button {
-  border: 2px solid #fc5d13;
+  border: 2px solid #ffaa76;
   margin: 35px 0px; }
+  .button:hover {
+    border-color: #fc5d13; }
 
 .AdBanner {
   color: white;
@@ -147,7 +149,7 @@ footer {
   margin: 30px;
   padding: 10px 50px; }
   .space:hover .link {
-    color: #fc5d13; }
+    color: #ffaa76; }
 
 .largeText {
   font-size: 2em; }
