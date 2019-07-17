@@ -29678,7 +29678,7 @@ var AboutUs = function AboutUs() {
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "two"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
-    className: "lightRed"
+    className: "darkRed"
   }, "About Us"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "For over twenty years, Cosimo\u2019s Italian Restaurant has been serving authentic Italian cuisine. Our first restaurant opened in Nuoro, Italy during 1996. We have been located in Midlothian since 1998."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Our mission is to create great food and serve great people. We aim to create a terrific dining experince that will not be easily forgotton."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_bigButton__WEBPACK_IMPORTED_MODULE_2__["default"], {
     message: "View our Menu",
     link: "/menu"

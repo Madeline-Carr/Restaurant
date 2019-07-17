@@ -16,7 +16,7 @@ const AboutUs = () => {
                         />
                     </div>
                     <div className="two">
-                        <h1 className="lightRed">About Us</h1>
+                        <h1 className="darkRed">About Us</h1>
                         <p>
                             For over twenty years, Cosimo’s Italian Restaurant
                             has been serving authentic Italian cuisine. Our
