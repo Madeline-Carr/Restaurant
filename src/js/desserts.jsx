@@ -6,9 +6,6 @@ const DessertMenu = () => {
         <div>
             <div className="center">
                 <h2 className="darkRed largeText">Desserts</h2>
-                <h3 className="lightRed">
-                    Pizzas are only available in personal sizes.
-                </h3>
             </div>
             <div className="container menu">
                 <div className="one">
