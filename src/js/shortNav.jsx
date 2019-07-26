@@ -17,6 +17,7 @@ const ShortNav = () => {
                     <Link to="/contact">Contact</Link>
                 </nav>
             </div>
+            <div className="clear" />
         </div>
     );
 };
