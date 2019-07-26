@@ -252,6 +252,21 @@ ul {
     margin: 0 auto; } }
 
 @media only screen and (max-width: 690px) {
+  img {
+    max-width: 100%; }
+  h2 {
+    font-size: 32px; }
+  .background {
+    height: 750px;
+    background-image: url("../images/FoodLine.jpeg");
+    /* Center and scale the image nicely */
+    background-repeat: no-repeat;
+    background-position: bottom; }
+  .backgroundSmall {
+    min-height: 200px;
+    background-image: url("../images/FoodLine.jpeg");
+    background-attachment: fixed;
+    background-position: top; }
   .container {
     display: -webkit-box;
     display: -ms-flexbox;
