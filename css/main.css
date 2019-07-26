@@ -256,6 +256,8 @@ ul {
     max-width: 100%; }
   h2 {
     font-size: 32px; }
+  .intro h2 {
+    font-size: 32px; }
   .background {
     height: 750px;
     background-image: url("../images/FoodLine.jpeg");
