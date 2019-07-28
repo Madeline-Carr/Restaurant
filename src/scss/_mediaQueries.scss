@@ -45,6 +45,36 @@
 
 //Small Screens
 @media only screen and (max-width: 690px) {
+    img {
+        max-width: 100%;
+    }
+    h2 {
+        font-size: 32px;
+    }
+    .intro {
+        h2 {
+            font-size: 32px;
+        }
+    }
+
+    //TESTING
+    .background {
+        height: 750px;
+        background-image: url('../images/FoodLine.jpeg');
+        /* Center and scale the image nicely */
+        background-repeat: no-repeat;
+
+        // background-attachment: fixed;
+        background-position: bottom;
+    }
+
+    .backgroundSmall {
+        min-height: 200px;
+        background-image: url('../images/FoodLine.jpeg');
+        background-attachment: fixed;
+        background-position: top;
+    }
+    //TESTING
     //Footer
     .container {
         display: flex;
