@@ -1,5 +1,7 @@
 # Cosimo's Italian Restaurant
 
+This website was created for a fictional restaurant in order to practice my web design skills.
+
 ## What is this?
 
 This website is a test of my design and web development skills. The goal is to understand my work flow better and to see what problems might arise when I am working based on a specific design.
